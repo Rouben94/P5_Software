@@ -1,0 +1,27 @@
+2019-12-28 13:35:23,867 - DEBUG - COM4: TX: 616918bdc3a6182aa50b74dbc0d251a13c4cf2323e916897552877e82ac7375c4f87a7c9a28aa2f02cf8d333a58c78c4a2fc37a323d1ed503836d9de97aabf31f20002f764d4fc9035cf4f35e0eb98171a5bd338fa12bcefa72796aede898ba60396
+2019-12-28 13:35:23,878 - DEBUG - COM4: RX: 03846900
+2019-12-28 13:35:23,879 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 105, 'status': 0, 'data': bytearray(b'')}}
+2019-12-28 13:35:23,880 - DEBUG - COM4: TX: 059f01000100
+2019-12-28 13:35:23,879 - INFO - COM4: Success
+2019-12-28 13:35:23,882 - DEBUG - COM4: RX: 03849f8e
+2019-12-28 13:35:23,892 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 159, 'status': 142, 'data': bytearray(b'')}}
+2019-12-28 13:35:23,893 - DEBUG - COM4: TX: 1392000018eed9c2a56add85049ffc3c59ad0e12
+2019-12-28 13:35:23,892 - ERROR - COM4: None: ERROR_REJECTED
+2019-12-28 13:35:23,897 - DEBUG - COM4: RX: 03849281
+2019-12-28 13:35:23,897 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 146, 'status': 129, 'data': bytearray(b'')}}
+2019-12-28 13:35:23,898 - DEBUG - COM4: TX: 1597000000004f68ad85d9f48ac8589df665b6b49b8a
+2019-12-28 13:35:23,897 - ERROR - COM4: SubnetAdd: ERROR_INTERNAL
+2019-12-28 13:35:23,902 - DEBUG - COM4: RX: 03849781
+2019-12-28 13:35:23,902 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 129, 'data': bytearray(b'')}}
+2019-12-28 13:35:23,903 - DEBUG - COM4: TX: 1597010000002aa2a6ded5a0798ceab5787ca3ae39fc
+2019-12-28 13:35:23,902 - ERROR - COM4: AppkeyAdd: ERROR_INTERNAL
+2019-12-28 13:35:23,907 - DEBUG - COM4: RX: 03849781
+2019-12-28 13:35:23,907 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 129, 'data': bytearray(b'')}}
+2019-12-28 13:35:23,907 - ERROR - COM4: AppkeyAdd: ERROR_INTERNAL
+2019-12-28 13:35:25,866 - DEBUG - COM4: TX: 0161
+2019-12-28 13:35:25,867 - DEBUG - COM4: RX: 03846100
+2019-12-28 13:35:25,867 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 97, 'status': 0, 'data': bytearray(b'')}}
+2019-12-28 13:35:25,868 - INFO - COM4: Success
+2019-12-28 13:35:30,867 - DEBUG - COM4: TX: 0162
+2019-12-28 13:35:30,869 - DEBUG - COM4: exited read event
+2019-12-28 13:35:32,868 - INFO - COM4: cmd ScanStop, timeout waiting for event

@@ -1,0 +1,30 @@
+2019-12-28 13:32:02,936 - DEBUG - COM4: TX: 6169c4ed9fcdb7bf58afb963c5fac5e2b2572fb936567a8de78f8ffb7bd346865d3f45117a6ce0e5851616c5f68dd381658432d80d3725624ff6099eb88960b9a567e8e2b308227191adcccc196609b9236ea4259ad08d5412210ee21c255698203d
+2019-12-28 13:32:02,948 - DEBUG - COM4: exited read event
+2019-12-28 13:32:04,937 - INFO - COM4: cmd KeypairSet, timeout waiting for event
+2019-12-28 13:32:36,549 - DEBUG - COM4: TX: 61698b69cce473feb6478b586029575e9cb9ca8ac630c4a6c5da0faf15b19f5a041aafd1f437f261c474e22ca7f7ad9b85ea57f30d663eb4162ac986eba878c06bee78287a668261fd450797bcb37d3d46a0d22a3d2b29f7a40012c42e41d47afbf7
+2019-12-28 13:32:36,563 - DEBUG - COM4: RX: 03846900
+2019-12-28 13:32:36,563 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 105, 'status': 0, 'data': bytearray(b'')}}
+2019-12-28 13:32:36,563 - DEBUG - COM4: TX: 059f01000100
+2019-12-28 13:32:36,563 - INFO - COM4: Success
+2019-12-28 13:32:36,566 - DEBUG - COM4: RX: 03849f00
+2019-12-28 13:32:36,566 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 159, 'status': 0, 'data': bytearray(b'')}}
+2019-12-28 13:32:36,566 - DEBUG - COM4: TX: 1392000018eed9c2a56add85049ffc3c59ad0e12
+2019-12-28 13:32:36,566 - INFO - COM4: Success
+2019-12-28 13:32:36,571 - DEBUG - COM4: RX: 058492000000
+2019-12-28 13:32:36,571 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 146, 'status': 0, 'data': bytearray(b'\x00\x00')}}
+2019-12-28 13:32:36,571 - DEBUG - COM4: TX: 1597000000004f68ad85d9f48ac8589df665b6b49b8a
+2019-12-28 13:32:36,571 - INFO - COM4: SubnetAdd: {'subnet_handle': 0}
+2019-12-28 13:32:36,575 - DEBUG - COM4: RX: 058497000000
+2019-12-28 13:32:36,576 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 0, 'data': bytearray(b'\x00\x00')}}
+2019-12-28 13:32:36,576 - DEBUG - COM4: TX: 1597010000002aa2a6ded5a0798ceab5787ca3ae39fc
+2019-12-28 13:32:36,576 - INFO - COM4: AppkeyAdd: {'appkey_handle': 0}
+2019-12-28 13:32:36,580 - DEBUG - COM4: RX: 058497000100
+2019-12-28 13:32:36,580 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 0, 'data': bytearray(b'\x01\x00')}}
+2019-12-28 13:32:36,580 - DEBUG - COM4: TX: 0161
+2019-12-28 13:32:36,580 - INFO - COM4: AppkeyAdd: {'appkey_handle': 1}
+2019-12-28 13:32:36,582 - DEBUG - COM4: RX: 03846100
+2019-12-28 13:32:36,582 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 97, 'status': 0, 'data': bytearray(b'')}}
+2019-12-28 13:32:36,582 - INFO - COM4: Success
+2019-12-28 13:32:41,551 - DEBUG - COM4: TX: 0162
+2019-12-28 13:32:41,552 - DEBUG - COM4: exited read event
+2019-12-28 13:32:43,551 - INFO - COM4: cmd ScanStop, timeout waiting for event

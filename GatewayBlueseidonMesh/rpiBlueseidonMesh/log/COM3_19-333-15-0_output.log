@@ -1,0 +1,26 @@
+2019-11-29 15:00:41,095 - DEBUG - COM3: TX: 13920000bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2019-11-29 15:00:41,107 - DEBUG - COM3: RX: 0384928e
+2019-11-29 15:00:41,107 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 146, 'status': 142, 'data': bytearray(b'')}}
+2019-11-29 15:00:41,108 - DEBUG - COM3: TX: 159700000000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+2019-11-29 15:00:41,108 - ERROR - COM3: SubnetAdd: ERROR_REJECTED
+2019-11-29 15:00:41,111 - DEBUG - COM3: RX: 0384978e
+2019-11-29 15:00:41,111 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 142, 'data': bytearray(b'')}}
+2019-11-29 15:00:41,111 - DEBUG - COM3: TX: 059f01000100
+2019-11-29 15:00:41,111 - ERROR - COM3: AppkeyAdd: ERROR_REJECTED
+2019-11-29 15:00:41,111 - DEBUG - COM3: RX: 03849f8e
+2019-11-29 15:00:41,111 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 159, 'status': 142, 'data': bytearray(b'')}}
+2019-11-29 15:00:41,111 - ERROR - COM3: None: ERROR_REJECTED
+2019-11-29 15:00:45,238 - DEBUG - COM3: exited read event
+2019-11-29 15:00:56,111 - DEBUG - COM3: TX: 13920000bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2019-11-29 15:00:56,127 - DEBUG - COM3: RX: 058492000000
+2019-11-29 15:00:56,127 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 146, 'status': 0, 'data': bytearray(b'\x00\x00')}}
+2019-11-29 15:00:56,128 - DEBUG - COM3: TX: 159700000000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+2019-11-29 15:00:56,128 - INFO - COM3: SubnetAdd: {'subnet_handle': 0}
+2019-11-29 15:00:56,131 - DEBUG - COM3: RX: 058497000000
+2019-11-29 15:00:56,131 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 0, 'data': bytearray(b'\x00\x00')}}
+2019-11-29 15:00:56,131 - DEBUG - COM3: TX: 059f01000100
+2019-11-29 15:00:56,131 - INFO - COM3: AppkeyAdd: {'appkey_handle': 0}
+2019-11-29 15:00:56,131 - DEBUG - COM3: RX: 03849f00
+2019-11-29 15:00:56,131 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 159, 'status': 0, 'data': bytearray(b'')}}
+2019-11-29 15:00:56,131 - INFO - COM3: Success
+2019-11-29 15:06:45,199 - DEBUG - COM3: exited read event

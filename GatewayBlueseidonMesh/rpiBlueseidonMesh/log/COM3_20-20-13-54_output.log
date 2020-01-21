@@ -1,0 +1,20 @@
+2020-01-20 13:54:11,151 - DEBUG - COM3: TX: 6169a7dfe7c0294ca9635b112ce4a9761a94a7fdeeb37f5bb35a147ae8378a709629cfe8ee188051014d290b59ee17a41e6f764871da605b7f45168516a5b9f31b79c9811f397d61b8794ff528867f960efe43b58a6fc74a7cd5aeaf65b995e3dbcf
+2020-01-20 13:54:11,162 - DEBUG - COM3: RX: 03846900
+2020-01-20 13:54:11,162 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 105, 'status': 0, 'data': bytearray(b'')}}
+2020-01-20 13:54:11,163 - DEBUG - COM3: TX: 059f01000100
+2020-01-20 13:54:11,163 - INFO - COM3: Success
+2020-01-20 13:54:11,165 - DEBUG - COM3: RX: 03849f8e
+2020-01-20 13:54:11,174 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 159, 'status': 142, 'data': bytearray(b'')}}
+2020-01-20 13:54:11,174 - DEBUG - COM3: TX: 1392000018eed9c2a56add85049ffc3c59ad0e12
+2020-01-20 13:54:11,174 - ERROR - COM3: None: ERROR_REJECTED
+2020-01-20 13:54:11,178 - DEBUG - COM3: RX: 03849281
+2020-01-20 13:54:11,179 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 146, 'status': 129, 'data': bytearray(b'')}}
+2020-01-20 13:54:11,179 - DEBUG - COM3: TX: 1597000000004f68ad85d9f48ac8589df665b6b49b8a
+2020-01-20 13:54:11,179 - ERROR - COM3: SubnetAdd: ERROR_INTERNAL
+2020-01-20 13:54:11,183 - DEBUG - COM3: RX: 03849781
+2020-01-20 13:54:11,183 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 129, 'data': bytearray(b'')}}
+2020-01-20 13:54:11,184 - DEBUG - COM3: TX: 1597010000002aa2a6ded5a0798ceab5787ca3ae39fc
+2020-01-20 13:54:11,183 - ERROR - COM3: AppkeyAdd: ERROR_INTERNAL
+2020-01-20 13:54:11,187 - DEBUG - COM3: RX: 03849781
+2020-01-20 13:54:11,187 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 129, 'data': bytearray(b'')}}
+2020-01-20 13:54:11,187 - ERROR - COM3: AppkeyAdd: ERROR_INTERNAL
