@@ -1,5 +1,4 @@
-# P5_Software
-FHNW Project 5 Blueseidon
+# Software_Projekt_5
 
 
 Building with SEGGER Embedded Studio
@@ -29,3 +28,4 @@ Open the desired project file located in the examples/ folder, for instance exam
 Go to Build -> Build < name of the emProject file>, for instance Build light_switch_client_nrf52832_xxAA_s132_6.1.0.
 Wait for the compilation to finish.
 You can now run the example using SEGGER Embedded Studio.
+ 
