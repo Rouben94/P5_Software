@@ -68,6 +68,18 @@
 bool access_flash_config_load(void);
 
 /**
+ * Recover access layer configuration from flash.
+ *
+ * @warning All models have to be added before this function is called. Calling this function will
+ *          prevent any further changes to composition of the device (Freezing of model
+ *          configurations and device composition data.)
+ *
+ * @returns @c True If a valid state was successfully restored from flash, or if this function is
+ *                  called for the first time when no configuration exist in the flash.
+ *
+ */
+
+/**
  * Store the current state of access layer - information related to element and model configuration -
  * in non volatile memory.
  *

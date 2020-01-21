@@ -61,7 +61,7 @@
 /** Parameters for the generic_level Set message. */
 typedef struct
 {
-    int16_t level;                                       /**< Value of the Level state */
+    uint16_t level;                                       /**< Value of the Level state */
     uint8_t tid;                                          /**< Transaction ID */
 } generic_level_set_params_t;
 

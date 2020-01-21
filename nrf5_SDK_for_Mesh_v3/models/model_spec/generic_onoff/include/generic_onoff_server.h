@@ -50,7 +50,7 @@
  */
 
 /** Server model ID */
-#define GENERIC_ONOFF_SERVER_MODEL_ID 0x1000
+#define GENERIC_ONOFF_SERVER_MODEL_ID     0x1000
 
 /* Forward declaration */
 typedef struct __generic_onoff_server_t generic_onoff_server_t;

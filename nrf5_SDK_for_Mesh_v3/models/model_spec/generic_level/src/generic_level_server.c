@@ -37,8 +37,8 @@
  */
 
 #include "generic_level_server.h"
-#include "generic_level_common.h"
-#include "generic_level_messages.h"
+#include "generic_level_common_userdefined.h"
+#include "generic_level_messages_userdefined.h"
 
 #include <stdint.h>
 #include <stddef.h>

@@ -35,7 +35,7 @@
  * OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "app_level.h"
+#include "app_level_userdefined.h"
 
 #include <stdint.h>
 #include <stdlib.h>
@@ -460,7 +460,7 @@ static void generic_level_state_set_cb(const generic_level_server_t * p_self,
     p_server->state.params.set.initial_present_level = p_server->state.present_level;
     p_server->state.params.set.required_delta = p_server->state.target_level - p_server->state.present_level;
 
-    __LOG(LOG_SRC_APP, LOG_LEVEL_INFO, "SET: Level: %d  delay: %d  tt: %d  req-delta: %d \n",
+    __LOG(LOG_SRC_APP, LOG_LEVEL_INFO, "SET: Level: %u  delay: %d  tt: %d  req-delta: %d \n",
           p_server->state.target_level,  p_server->state.delay_ms, p_server->state.transition_time_ms,
           p_server->state.params.set.required_delta);
 

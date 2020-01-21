@@ -72,7 +72,7 @@
 #include "app_onoff.h"
 #include "ble_softdevice_support.h"
 
-#define ONOFF_SERVER_0_LED          (BSP_LED_0)
+#define ONOFF_SERVER_0_LED          (BSP_LED_1)
 #define APP_ONOFF_ELEMENT_INDEX     (0)
 
 static bool m_device_provisioned;

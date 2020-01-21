@@ -83,7 +83,7 @@
 
 /** GAP device name. */
 #ifndef GAP_DEVICE_NAME
-#define GAP_DEVICE_NAME                 "nRF5x Mesh Node"
+#define GAP_DEVICE_NAME                 "BlueSeidon"
 #endif
 
 /** Minimum acceptable connection interval. */

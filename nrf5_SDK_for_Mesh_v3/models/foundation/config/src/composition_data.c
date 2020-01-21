@@ -106,6 +106,10 @@ void config_composition_data_get(uint8_t * p_data, uint16_t * p_size)
     device.features |= CONFIG_FEATURE_RELAY_BIT;
 #endif
 
+#if MESH_FEATURE_FRIEND_ENABLED
+    device.features |= CONFIG_FEATURE_FRIEND_BIT;
+#endif
+
     memcpy(&p_data[0], &device, sizeof(device));
     *p_size = sizeof(device);
 

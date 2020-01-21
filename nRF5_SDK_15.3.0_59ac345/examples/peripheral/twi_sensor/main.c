@@ -63,7 +63,7 @@
 #define TWI_INSTANCE_ID     0
 
 /* Common addresses definition for temperature sensor. */
-#define LM75B_ADDR          (0x90U >> 1)
+#define LM75B_ADDR          0x70
 
 #define LM75B_REG_TEMP      0x00U
 #define LM75B_REG_CONF      0x01U
@@ -90,7 +90,7 @@ void LM75B_set_mode(void)
     ret_code_t err_code;
 
     /* Writing to LM75B_REG_CONF "0" set temperature sensor in NORMAL mode. */
-    uint8_t reg[2] = {LM75B_REG_CONF, NORMAL_MODE};
+    uint8_t reg[2] = {0x78, 0x66};//LM75B_REG_CONF, NORMAL_MODE};
     err_code = nrf_drv_twi_tx(&m_twi, LM75B_ADDR, reg, sizeof(reg), false);
     APP_ERROR_CHECK(err_code);
     while (m_xfer_done == false);
