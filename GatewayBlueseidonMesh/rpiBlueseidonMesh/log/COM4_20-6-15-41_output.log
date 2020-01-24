@@ -1,0 +1,151 @@
+2020-01-06 15:41:49,116 - DEBUG - COM4: TX: 616967ef076e6b84eb754579ba4516bcfc7836cd2b8ddfce39902891df92a32e6a828ef44f950c527bd512bd660dae4babfce022e0b521b2126582874189bb82175e8e97b7bd9f020001e0f8f8dfb4e2b035be9d171b001e58af2bdac57994c8c825
+2020-01-06 15:41:49,127 - DEBUG - COM4: RX: 03846900
+2020-01-06 15:41:49,127 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 105, 'status': 0, 'data': bytearray(b'')}}
+2020-01-06 15:41:49,128 - DEBUG - COM4: TX: 059f01000100
+2020-01-06 15:41:49,127 - INFO - COM4: Success
+2020-01-06 15:41:49,130 - DEBUG - COM4: RX: 03849f00
+2020-01-06 15:41:49,133 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 159, 'status': 0, 'data': bytearray(b'')}}
+2020-01-06 15:41:49,134 - DEBUG - COM4: TX: 1392000018eed9c2a56add85049ffc3c59ad0e12
+2020-01-06 15:41:49,134 - INFO - COM4: Success
+2020-01-06 15:41:49,138 - DEBUG - COM4: RX: 058492000000
+2020-01-06 15:41:49,138 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 146, 'status': 0, 'data': bytearray(b'\x00\x00')}}
+2020-01-06 15:41:49,138 - DEBUG - COM4: TX: 1597000000004f68ad85d9f48ac8589df665b6b49b8a
+2020-01-06 15:41:49,138 - INFO - COM4: SubnetAdd: {'subnet_handle': 0}
+2020-01-06 15:41:49,143 - DEBUG - COM4: RX: 058497000000
+2020-01-06 15:41:49,143 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 0, 'data': bytearray(b'\x00\x00')}}
+2020-01-06 15:41:49,143 - DEBUG - COM4: TX: 1597010000002aa2a6ded5a0798ceab5787ca3ae39fc
+2020-01-06 15:41:49,143 - INFO - COM4: AppkeyAdd: {'appkey_handle': 0}
+2020-01-06 15:41:49,147 - DEBUG - COM4: RX: 058497000100
+2020-01-06 15:41:49,147 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 0, 'data': bytearray(b'\x01\x00')}}
+2020-01-06 15:41:49,148 - INFO - COM4: AppkeyAdd: {'appkey_handle': 1}
+2020-01-06 15:42:12,645 - DEBUG - COM4: TX: 0161
+2020-01-06 15:42:12,646 - DEBUG - COM4: RX: 03846100
+2020-01-06 15:42:12,646 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 97, 'status': 0, 'data': bytearray(b'')}}
+2020-01-06 15:42:12,646 - INFO - COM4: Success
+2020-01-06 15:42:13,317 - DEBUG - COM4: RX: 1ac0d9cfbd4418e74240b492f8f01d1cd1acc90001b492f8f01ddc
+2020-01-06 15:42:13,317 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd9\xcf\xbdD\x18\xe7B@\xb4\x92\xf8\xf0\x1d\x1c\xd1\xac'), 'rssi': -55, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xb4\x92\xf8\xf0\x1d\xdc')}}
+2020-01-06 15:42:13,318 - INFO - COM4: Received UUID d9cfbd4418e74240b492f8f01d1cd1ac with RSSI: -55 dB
+2020-01-06 15:42:13,374 - DEBUG - COM4: RX: 1ac0c86a88bbfa034047a539d04a8ded330fc900012539d04a8ded
+2020-01-06 15:42:13,374 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xc8j\x88\xbb\xfa\x03@G\xa59\xd0J\x8d\xed3\x0f'), 'rssi': -55, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'%9\xd0J\x8d\xed')}}
+2020-01-06 15:42:13,374 - INFO - COM4: Received UUID c86a88bbfa034047a539d04a8ded330f with RSSI: -55 dB
+2020-01-06 15:42:13,913 - DEBUG - COM4: RX: 1ac0d5b91bba0508344a809923e28a48b06dc20001c09923e28ac8
+2020-01-06 15:42:13,913 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -62, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2020-01-06 15:42:13,913 - INFO - COM4: Received UUID d5b91bba0508344a809923e28a48b06d with RSSI: -62 dB
+2020-01-06 15:42:15,317 - DEBUG - COM4: RX: 1ac0d9cfbd4418e74240b492f8f01d1cd1acce0001b492f8f01ddc
+2020-01-06 15:42:15,317 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd9\xcf\xbdD\x18\xe7B@\xb4\x92\xf8\xf0\x1d\x1c\xd1\xac'), 'rssi': -50, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xb4\x92\xf8\xf0\x1d\xdc')}}
+2020-01-06 15:42:15,364 - DEBUG - COM4: RX: 1ac0c86a88bbfa034047a539d04a8ded330fce00012539d04a8ded
+2020-01-06 15:42:15,379 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xc8j\x88\xbb\xfa\x03@G\xa59\xd0J\x8d\xed3\x0f'), 'rssi': -50, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'%9\xd0J\x8d\xed')}}
+2020-01-06 15:42:15,918 - DEBUG - COM4: RX: 1ac0d5b91bba0508344a809923e28a48b06dcc0001c09923e28ac8
+2020-01-06 15:42:15,918 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -52, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2020-01-06 15:42:17,325 - DEBUG - COM4: RX: 1ac0d9cfbd4418e74240b492f8f01d1cd1accd0001b492f8f01ddc
+2020-01-06 15:42:17,325 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd9\xcf\xbdD\x18\xe7B@\xb4\x92\xf8\xf0\x1d\x1c\xd1\xac'), 'rssi': -51, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xb4\x92\xf8\xf0\x1d\xdc')}}
+2020-01-06 15:42:17,389 - DEBUG - COM4: RX: 1ac0c86a88bbfa034047a539d04a8ded330fcb00012539d04a8ded
+2020-01-06 15:42:17,389 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xc8j\x88\xbb\xfa\x03@G\xa59\xd0J\x8d\xed3\x0f'), 'rssi': -53, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'%9\xd0J\x8d\xed')}}
+2020-01-06 15:42:17,646 - DEBUG - COM4: TX: 0162
+2020-01-06 15:42:17,648 - DEBUG - COM4: RX: 03846200
+2020-01-06 15:42:17,648 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 98, 'status': 0, 'data': bytearray(b'')}}
+2020-01-06 15:42:17,648 - INFO - COM4: Success
+2020-01-06 15:43:03,378 - DEBUG - COM4: TX: 2d6300d9cfbd4418e74240b492f8f01d1cd1ac18eed9c2a56add85049ffc3c59ad0e120000000000001500000000
+2020-01-06 15:43:03,384 - DEBUG - COM4: RX: 0484630000
+2020-01-06 15:43:03,384 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 99, 'status': 0, 'data': bytearray(b'\x00')}}
+2020-01-06 15:43:03,384 - INFO - COM4: Provision: {'context': 0}
+2020-01-06 15:43:03,421 - DEBUG - COM4: RX: 02c100
+2020-01-06 15:43:03,421 - DEBUG - COM4: parsed_packet {event: ProvLinkEstablished, data: {'context_id': 0}}
+2020-01-06 15:43:03,421 - INFO - COM4: Link established
+2020-01-06 15:43:03,463 - DEBUG - COM4: RX: 0bc300010001000000000000
+2020-01-06 15:43:03,463 - DEBUG - COM4: parsed_packet {event: ProvCapsReceived, data: {'context_id': 0, 'num_elements': 1, 'public_key_type': 0, 'static_oob_types': 1, 'output_oob_size': 0, 'output_oob_actions': 0, 'input_oob_size': 0, 'input_oob_actions': 0}}
+2020-01-06 15:43:03,463 - INFO - COM4: Received capabilities
+2020-01-06 15:43:03,464 - INFO - COM4: Number of elements: 1
+2020-01-06 15:43:03,464 - DEBUG - COM4: TX: 056600000000
+2020-01-06 15:43:03,467 - DEBUG - COM4: RX: 0484660000
+2020-01-06 15:43:03,467 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 102, 'status': 0, 'data': bytearray(b'\x00')}}
+2020-01-06 15:43:03,467 - INFO - COM4: OobUse: {'context': 0}
+2020-01-06 15:43:07,734 - DEBUG - COM4: RX: 62c700ee314555bfa6d9b63183c210ca786e2153edf12232bc8d3c26481eb9f6b379e25419925c49bae83e111679fba5b6f6395eac3dec446df38abd70fb316f30c5a367ef076e6b84eb754579ba4516bcfc7836cd2b8ddfce39902891df92a32e6a82
+2020-01-06 15:43:07,734 - DEBUG - COM4: parsed_packet {event: ProvEcdhRequest, data: {'context_id': 0, 'peer_public': bytearray(b'\xee1EU\xbf\xa6\xd9\xb61\x83\xc2\x10\xcaxn!S\xed\xf1"2\xbc\x8d<&H\x1e\xb9\xf6\xb3y\xe2T\x19\x92\\I\xba\xe8>\x11\x16y\xfb\xa5\xb6\xf69^\xac=\xecDm\xf3\x8a\xbdp\xfb1o0\xc5\xa3'), 'node_private': bytearray(b'g\xef\x07nk\x84\xebuEy\xbaE\x16\xbc\xfcx6\xcd+\x8d\xdf\xce9\x90(\x91\xdf\x92\xa3.j\x82')}}
+2020-01-06 15:43:07,734 - INFO - COM4: ECDH request received
+2020-01-06 15:43:07,735 - DEBUG - COM4: TX: 226800585aac4ee86c8282d4723e98d12678decb973595d36bdccec59386a6c356a0ae
+2020-01-06 15:43:07,741 - DEBUG - COM4: RX: 0484680000
+2020-01-06 15:43:07,741 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 104, 'status': 0, 'data': bytearray(b'\x00')}}
+2020-01-06 15:43:07,741 - INFO - COM4: EcdhSecret: {'context': 0}
+2020-01-06 15:43:08,082 - DEBUG - COM4: RX: 2cc50000000000000015000000b1c9b2aa18434d6c9b367739c032980518eed9c2a56add85049ffc3c59ad0e12
+2020-01-06 15:43:08,082 - DEBUG - COM4: parsed_packet {event: ProvComplete, data: {'context_id': 0, 'iv_index': 0, 'net_key_index': 0, 'address': 21, 'iv_update_flag': 0, 'key_refresh_flag': 0, 'device_key': bytearray(b'\xb1\xc9\xb2\xaa\x18CMl\x9b6w9\xc02\x98\x05'), 'net_key': bytearray(b'\x18\xee\xd9\xc2\xa5j\xdd\x85\x04\x9f\xfc<Y\xad\x0e\x12')}}
+2020-01-06 15:43:08,082 - INFO - COM4: Provisioning complete
+2020-01-06 15:43:08,082 - INFO - COM4: 	Address(es): 0x15-0x15
+2020-01-06 15:43:08,082 - INFO - COM4: 	Device key: b1c9b2aa18434d6c9b367739c0329805
+2020-01-06 15:43:08,083 - INFO - COM4: 	Network key: 18eed9c2a56add85049ffc3c59ad0e12
+2020-01-06 15:43:08,083 - INFO - COM4: Adding device key to subnet 0
+2020-01-06 15:43:08,083 - INFO - COM4: Adding publication address of root element
+2020-01-06 15:43:08,083 - DEBUG - COM4: TX: 159c15000000b1c9b2aa18434d6c9b367739c0329805
+2020-01-06 15:43:08,084 - DEBUG - COM4: TX: 03a41500
+2020-01-06 15:43:08,087 - DEBUG - COM4: RX: 05849c000800
+2020-01-06 15:43:08,087 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 156, 'status': 0, 'data': bytearray(b'\x08\x00')}}
+2020-01-06 15:43:08,087 - INFO - COM4: DevkeyAdd: {'devkey_handle': 8}
+2020-01-06 15:43:08,088 - DEBUG - COM4: RX: 0584a4000000
+2020-01-06 15:43:08,088 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 164, 'status': 0, 'data': bytearray(b'\x00\x00')}}
+2020-01-06 15:43:08,088 - INFO - COM4: AddrPublicationAdd: {'address_handle': 0}
+2020-01-06 15:43:08,177 - DEBUG - COM4: RX: 03c20000
+2020-01-06 15:43:08,177 - DEBUG - COM4: parsed_packet {event: ProvLinkClosed, data: {'context_id': 0, 'close_reason': 0}}
+2020-01-06 15:43:08,177 - INFO - COM4: Provisioning link closed
+2020-01-06 15:44:51,336 - DEBUG - COM4: TX: 0161
+2020-01-06 15:44:51,336 - DEBUG - COM4: RX: 03846100
+2020-01-06 15:44:51,336 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 97, 'status': 0, 'data': bytearray(b'')}}
+2020-01-06 15:44:51,336 - INFO - COM4: Success
+2020-01-06 15:44:51,755 - DEBUG - COM4: RX: 1ac0c86a88bbfa034047a539d04a8ded330fca00012539d04a8ded
+2020-01-06 15:44:51,755 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xc8j\x88\xbb\xfa\x03@G\xa59\xd0J\x8d\xed3\x0f'), 'rssi': -54, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'%9\xd0J\x8d\xed')}}
+2020-01-06 15:44:52,322 - DEBUG - COM4: RX: 1ac0d5b91bba0508344a809923e28a48b06dcb0001c09923e28ac8
+2020-01-06 15:44:52,322 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -53, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2020-01-06 15:44:53,761 - DEBUG - COM4: RX: 1ac0c86a88bbfa034047a539d04a8ded330fc700012539d04a8ded
+2020-01-06 15:44:53,761 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xc8j\x88\xbb\xfa\x03@G\xa59\xd0J\x8d\xed3\x0f'), 'rssi': -57, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'%9\xd0J\x8d\xed')}}
+2020-01-06 15:44:54,331 - DEBUG - COM4: RX: 1ac0d5b91bba0508344a809923e28a48b06dc70001c09923e28ac8
+2020-01-06 15:44:54,331 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -57, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2020-01-06 15:44:55,768 - DEBUG - COM4: RX: 1ac0c86a88bbfa034047a539d04a8ded330fc100012539d04a8ded
+2020-01-06 15:44:55,768 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xc8j\x88\xbb\xfa\x03@G\xa59\xd0J\x8d\xed3\x0f'), 'rssi': -63, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'%9\xd0J\x8d\xed')}}
+2020-01-06 15:44:56,323 - DEBUG - COM4: RX: 1ac0d5b91bba0508344a809923e28a48b06dca0001c09923e28ac8
+2020-01-06 15:44:56,323 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -54, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2020-01-06 15:44:56,339 - DEBUG - COM4: TX: 0162
+2020-01-06 15:44:56,339 - DEBUG - COM4: RX: 03846200
+2020-01-06 15:44:56,339 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 98, 'status': 0, 'data': bytearray(b'')}}
+2020-01-06 15:44:56,339 - INFO - COM4: Success
+2020-01-06 15:45:32,101 - DEBUG - COM4: TX: 2d6300d9cfbd4418e74240b492f8f01d1cd1ac18eed9c2a56add85049ffc3c59ad0e120000000000001600000000
+2020-01-06 15:45:32,107 - DEBUG - COM4: RX: 0484630000
+2020-01-06 15:45:32,107 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 99, 'status': 0, 'data': bytearray(b'\x00')}}
+2020-01-06 15:45:32,108 - INFO - COM4: Provision: {'context': 0}
+2020-01-06 15:45:34,102 - DEBUG - COM4: TX: 0161
+2020-01-06 15:45:34,103 - DEBUG - COM4: RX: 03846100
+2020-01-06 15:45:34,103 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 97, 'status': 0, 'data': bytearray(b'')}}
+2020-01-06 15:45:34,103 - INFO - COM4: Success
+2020-01-06 15:45:34,402 - DEBUG - COM4: RX: 1ac0d5b91bba0508344a809923e28a48b06dcb0001c09923e28ac8
+2020-01-06 15:45:34,402 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -53, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2020-01-06 15:45:35,884 - DEBUG - COM4: RX: 1ac0c86a88bbfa034047a539d04a8ded330fc500012539d04a8ded
+2020-01-06 15:45:35,884 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xc8j\x88\xbb\xfa\x03@G\xa59\xd0J\x8d\xed3\x0f'), 'rssi': -59, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'%9\xd0J\x8d\xed')}}
+2020-01-06 15:45:36,408 - DEBUG - COM4: RX: 1ac0d5b91bba0508344a809923e28a48b06dc40001c09923e28ac8
+2020-01-06 15:45:36,408 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -60, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2020-01-06 15:45:37,879 - DEBUG - COM4: RX: 1ac0c86a88bbfa034047a539d04a8ded330fc600012539d04a8ded
+2020-01-06 15:45:37,879 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xc8j\x88\xbb\xfa\x03@G\xa59\xd0J\x8d\xed3\x0f'), 'rssi': -58, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'%9\xd0J\x8d\xed')}}
+2020-01-06 15:45:38,408 - DEBUG - COM4: RX: 1ac0d5b91bba0508344a809923e28a48b06dca0001c09923e28ac8
+2020-01-06 15:45:38,408 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -54, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2020-01-06 15:45:39,105 - DEBUG - COM4: TX: 0162
+2020-01-06 15:45:39,105 - DEBUG - COM4: RX: 03846200
+2020-01-06 15:45:39,105 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 98, 'status': 0, 'data': bytearray(b'')}}
+2020-01-06 15:45:39,105 - INFO - COM4: Success
+2020-01-06 15:45:40,115 - DEBUG - COM4: TX: 0161
+2020-01-06 15:45:40,115 - DEBUG - COM4: RX: 03846100
+2020-01-06 15:45:40,115 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 97, 'status': 0, 'data': bytearray(b'')}}
+2020-01-06 15:45:40,115 - INFO - COM4: Success
+2020-01-06 15:45:40,409 - DEBUG - COM4: RX: 1ac0d5b91bba0508344a809923e28a48b06dcb0001c09923e28ac8
+2020-01-06 15:45:40,409 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -53, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2020-01-06 15:45:41,895 - DEBUG - COM4: RX: 1ac0c86a88bbfa034047a539d04a8ded330fc700012539d04a8ded
+2020-01-06 15:45:41,895 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xc8j\x88\xbb\xfa\x03@G\xa59\xd0J\x8d\xed3\x0f'), 'rssi': -57, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'%9\xd0J\x8d\xed')}}
+2020-01-06 15:45:42,427 - DEBUG - COM4: RX: 1ac0d5b91bba0508344a809923e28a48b06dc40001c09923e28ac8
+2020-01-06 15:45:42,427 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -60, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2020-01-06 15:45:43,904 - DEBUG - COM4: RX: 1ac0c86a88bbfa034047a539d04a8ded330fc400012539d04a8ded
+2020-01-06 15:45:43,904 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xc8j\x88\xbb\xfa\x03@G\xa59\xd0J\x8d\xed3\x0f'), 'rssi': -60, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'%9\xd0J\x8d\xed')}}
+2020-01-06 15:45:44,430 - DEBUG - COM4: RX: 1ac0d5b91bba0508344a809923e28a48b06dca0001c09923e28ac8
+2020-01-06 15:45:44,431 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -54, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2020-01-06 15:45:45,115 - DEBUG - COM4: TX: 0162
+2020-01-06 15:45:45,117 - DEBUG - COM4: RX: 03846200
+2020-01-06 15:45:45,117 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 98, 'status': 0, 'data': bytearray(b'')}}
+2020-01-06 15:45:45,117 - INFO - COM4: Success
+2020-01-06 15:46:32,190 - DEBUG - COM4: RX: 03c20001
+2020-01-06 15:46:32,190 - DEBUG - COM4: parsed_packet {event: ProvLinkClosed, data: {'context_id': 0, 'close_reason': 1}}
+2020-01-06 15:46:32,191 - INFO - COM4: Provisioning link closed

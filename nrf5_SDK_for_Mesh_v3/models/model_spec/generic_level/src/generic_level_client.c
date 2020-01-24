@@ -38,7 +38,7 @@
 
 #include "generic_level_client.h"
 #include "generic_level_common.h"
-#include "generic_level_messages.h"
+#include "generic_level_messages_userdefined.h"
 #include "model_common.h"
 
 #include <stdint.h>

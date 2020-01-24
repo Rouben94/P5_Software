@@ -1,0 +1,107 @@
+2019-12-30 19:44:53,689 - DEBUG - COM4: TX: 6169f225b1d63769c18c1307b99460f1bec3dfdb68fadd20c38980c42edccbbcfe09830d6d085eef4057be0058d9d8561eba712de42f32e1bfba6a23c15aac00b466b786e2ea052dbda5c30b1e529cb782ea60872a29b18319a59d8792267b16f32f
+2019-12-30 19:44:53,700 - DEBUG - COM4: RX: 03846900
+2019-12-30 19:44:53,701 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 105, 'status': 0, 'data': bytearray(b'')}}
+2019-12-30 19:44:53,702 - DEBUG - COM4: TX: 059f01000100
+2019-12-30 19:44:53,702 - INFO - COM4: Success
+2019-12-30 19:44:53,706 - DEBUG - COM4: RX: 03849f8e
+2019-12-30 19:44:53,716 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 159, 'status': 142, 'data': bytearray(b'')}}
+2019-12-30 19:44:53,717 - DEBUG - COM4: TX: 1392000018eed9c2a56add85049ffc3c59ad0e12
+2019-12-30 19:44:53,716 - ERROR - COM4: None: ERROR_REJECTED
+2019-12-30 19:44:53,720 - DEBUG - COM4: RX: 03849281
+2019-12-30 19:44:53,720 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 146, 'status': 129, 'data': bytearray(b'')}}
+2019-12-30 19:44:53,721 - DEBUG - COM4: TX: 1597000000004f68ad85d9f48ac8589df665b6b49b8a
+2019-12-30 19:44:53,721 - ERROR - COM4: SubnetAdd: ERROR_INTERNAL
+2019-12-30 19:44:53,724 - DEBUG - COM4: RX: 03849781
+2019-12-30 19:44:53,724 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 129, 'data': bytearray(b'')}}
+2019-12-30 19:44:53,725 - DEBUG - COM4: TX: 1597010000002aa2a6ded5a0798ceab5787ca3ae39fc
+2019-12-30 19:44:53,725 - ERROR - COM4: AppkeyAdd: ERROR_INTERNAL
+2019-12-30 19:44:53,728 - DEBUG - COM4: RX: 03849781
+2019-12-30 19:44:53,729 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 129, 'data': bytearray(b'')}}
+2019-12-30 19:44:53,729 - ERROR - COM4: AppkeyAdd: ERROR_INTERNAL
+2019-12-30 19:46:41,588 - DEBUG - COM4: TX: 0161
+2019-12-30 19:46:41,590 - DEBUG - COM4: RX: 03846100
+2019-12-30 19:46:41,590 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 97, 'status': 0, 'data': bytearray(b'')}}
+2019-12-30 19:46:41,591 - INFO - COM4: Success
+2019-12-30 19:46:46,588 - DEBUG - COM4: TX: 0162
+2019-12-30 19:46:46,590 - DEBUG - COM4: RX: 03846200
+2019-12-30 19:46:46,590 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 98, 'status': 0, 'data': bytearray(b'')}}
+2019-12-30 19:46:46,591 - INFO - COM4: Success
+2019-12-30 19:46:55,361 - DEBUG - COM4: TX: 159c100000005d9021df511729ac8bec35d89746736d
+2019-12-30 19:46:55,361 - DEBUG - COM4: RX: 03849c8e
+2019-12-30 19:46:55,361 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 156, 'status': 142, 'data': bytearray(b'')}}
+2019-12-30 19:46:55,361 - DEBUG - COM4: TX: 03a41000
+2019-12-30 19:46:55,361 - ERROR - COM4: DevkeyAdd: ERROR_REJECTED
+2019-12-30 19:46:55,361 - DEBUG - COM4: RX: 0584a4000100
+2019-12-30 19:46:55,361 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 164, 'status': 0, 'data': bytearray(b'\x01\x00')}}
+2019-12-30 19:46:55,361 - INFO - COM4: AddrPublicationAdd: {'address_handle': 1}
+2019-12-30 19:46:56,361 - DEBUG - COM4.ConfigurationClient: Sending opcode: 8008, data: 00
+2019-12-30 19:46:56,361 - DEBUG - COM4.ConfigurationClient: Sending opcode: 00, data: 0000004f68ad85d9f48ac8589df665b6b49b8a
+2019-12-30 19:46:56,362 - DEBUG - COM4: TX: 0eab08000100000008000000800800
+2019-12-30 19:46:56,362 - DEBUG - COM4.ConfigurationClient: Sending opcode: 803d, data: 100000000210
+2019-12-30 19:46:56,366 - DEBUG - COM4: RX: 0784ab000a000000
+2019-12-30 19:46:56,366 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 171, 'status': 0, 'data': bytearray(b'\n\x00\x00\x00')}}
+2019-12-30 19:46:56,367 - DEBUG - COM4: TX: 1fab08000100000008000000000000004f68ad85d9f48ac8589df665b6b49b8a
+2019-12-30 19:46:56,366 - INFO - COM4: PacketSend: {'token': 10}
+2019-12-30 19:46:56,372 - DEBUG - COM4: RX: 0784ab000b000000
+2019-12-30 19:46:56,372 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 171, 'status': 0, 'data': bytearray(b'\x0b\x00\x00\x00')}}
+2019-12-30 19:46:56,373 - DEBUG - COM4: TX: 13ab08000100000008000000803d100000000210
+2019-12-30 19:46:56,373 - INFO - COM4: PacketSend: {'token': 11}
+2019-12-30 19:46:56,377 - DEBUG - COM4: RX: 0784ab000c000000
+2019-12-30 19:46:56,377 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 171, 'status': 0, 'data': bytearray(b'\x0c\x00\x00\x00')}}
+2019-12-30 19:46:56,378 - INFO - COM4: PacketSend: {'token': 12}
+2019-12-30 19:46:56,380 - DEBUG - COM4: RX: 05d20a000000
+2019-12-30 19:46:56,380 - DEBUG - COM4: parsed_packet {event: MeshTxComplete, data: {'token': 10}}
+2019-12-30 19:46:56,380 - INFO - COM4: {event: MeshTxComplete, data: {'token': 10}}
+2019-12-30 19:46:56,457 - DEBUG - COM4: RX: 05d20c000000
+2019-12-30 19:46:56,457 - DEBUG - COM4: parsed_packet {event: MeshTxComplete, data: {'token': 12}}
+2019-12-30 19:46:56,458 - INFO - COM4: {event: MeshTxComplete, data: {'token': 12}}
+2019-12-30 19:46:56,477 - DEBUG - COM4: RX: 1dd011000100080000000401c09923e28ac8d00900803e01100000000210
+2019-12-30 19:46:56,477 - DEBUG - COM4: parsed_packet {event: MeshMessageReceivedUnicast, data: {'src': 17, 'dst': 1, 'appkey_handle': 8, 'subnet_handle': 0, 'ttl': 4, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8'), 'rssi': -48, 'actual_length': 9, 'data': bytearray(b'\x80>\x01\x10\x00\x00\x00\x02\x10')}}
+2019-12-30 19:46:56,478 - INFO - COM4.ConfigurationClient: Model app bind status: AccessStatus.INVALID_ADDRESS
+2019-12-30 19:46:56,478 - DEBUG - COM4: Message Opcode bytearray(b'\x80>'), Data bytearray(b'\x01\x10\x00\x00\x00\x02\x10') unknown for model <mesh.access.Access object at 0x0000016582990610>.
+2019-12-30 19:46:56,959 - DEBUG - COM4: RX: 2ad011000100080000000401c09923e28ac8d8160002005900000000002800030000000300000002000010
+2019-12-30 19:46:56,959 - DEBUG - COM4: parsed_packet {event: MeshMessageReceivedUnicast, data: {'src': 17, 'dst': 1, 'appkey_handle': 8, 'subnet_handle': 0, 'ttl': 4, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8'), 'rssi': -40, 'actual_length': 22, 'data': bytearray(b'\x02\x00Y\x00\x00\x00\x00\x00(\x00\x03\x00\x00\x00\x03\x00\x00\x00\x02\x00\x00\x10')}}
+2019-12-30 19:46:56,966 - INFO - COM4.ConfigurationClient: Received composition data (page 0x00): {
+  "cid": "0059",
+  "pid": "0000",
+  "vid": "0000",
+  "crpl": 40,
+  "features": {
+    "relay": 0,
+    "proxy": 0,
+    "friend": 2,
+    "low_power": 2
+  },
+  "elements": [
+    {
+      "index": 0,
+      "location": "0000",
+      "models": [
+        {
+          "modelId": "0000"
+        },
+        {
+          "modelId": "0002"
+        },
+        {
+          "modelId": "1000"
+        }
+      ]
+    }
+  ]
+}
+2019-12-30 19:46:56,966 - DEBUG - COM4: Message Opcode bytearray(b'\x02'), Data bytearray(b'\x00Y\x00\x00\x00\x00\x00(\x00\x03\x00\x00\x00\x03\x00\x00\x00\x02\x00\x00\x10') unknown for model <mesh.access.Access object at 0x0000016582990610>.
+2019-12-30 19:46:57,016 - DEBUG - COM4: RX: 05d20b000000
+2019-12-30 19:46:57,017 - DEBUG - COM4: parsed_packet {event: MeshTxComplete, data: {'token': 11}}
+2019-12-30 19:46:57,017 - INFO - COM4: {event: MeshTxComplete, data: {'token': 11}}
+2019-12-30 19:46:57,043 - DEBUG - COM4: RX: 1ad011000100080000000401c09923e28ac8da0600800300000000
+2019-12-30 19:46:57,043 - DEBUG - COM4: parsed_packet {event: MeshMessageReceivedUnicast, data: {'src': 17, 'dst': 1, 'appkey_handle': 8, 'subnet_handle': 0, 'ttl': 4, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8'), 'rssi': -38, 'actual_length': 6, 'data': bytearray(b'\x80\x03\x00\x00\x00\x00')}}
+2019-12-30 19:46:57,044 - INFO - COM4.ConfigurationClient: Appkey status: AccessStatus.SUCCESS
+2019-12-30 19:46:57,051 - INFO - COM4.ConfigurationClient: Appkey bind 0 succeded for subnet 0 at node 0011
+2019-12-30 19:46:57,051 - DEBUG - COM4: Message Opcode bytearray(b'\x80\x03'), Data bytearray(b'\x00\x00\x00\x00') unknown for model <mesh.access.Access object at 0x0000016582990610>.
+2019-12-30 19:47:49,525 - DEBUG - COM4: RX: 04810200fe
+2019-12-30 19:47:49,525 - DEBUG - COM4: parsed_packet {event: DeviceStarted, data: {'operating_mode': 2, 'hw_error': 0, 'data_credit_available': 254}}
+2019-12-30 19:47:49,526 - INFO - COM4: Device rebooted.
+2019-12-30 19:47:49,978 - DEBUG - COM4: RX: 04810200fe
+2019-12-30 19:47:49,978 - DEBUG - COM4: parsed_packet {event: DeviceStarted, data: {'operating_mode': 2, 'hw_error': 0, 'data_credit_available': 254}}
+2019-12-30 19:47:49,978 - INFO - COM4: Device rebooted.

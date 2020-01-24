@@ -70,6 +70,8 @@ extern "C" {
 #define BSP_LED_1      LED_2
 #define BSP_LED_2      LED_3
 #define BSP_LED_3      LED_4
+#define LED_START      LED_1
+#define LED_STOP       LED_4
 
 // There is only one button for the application
 // as the second button is used for a RESET.

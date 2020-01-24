@@ -86,6 +86,9 @@ static uint8_t m_default_ttl = ACCESS_DEFAULT_TTL;
 /** Flag indicating that the device composition is frozen. */
 static bool m_access_model_config_frozen;
 
+static bool m_access_node_config_frozen;
+
+
 /* ********** Static asserts ********** */
 
 NRF_MESH_STATIC_ASSERT(ACCESS_MODEL_COUNT > 0);
@@ -599,6 +602,8 @@ static void access_publish_timing_update(access_model_handle_t handle)
 /** Global flag to keep track of if the flash metadata is up to date.*/
 static bool m_metadata_stored;
 
+static bool m_node_config_stored;
+
 /** Global flag to keep track of if the flash_manager is not ready for use (being erased or not added) .*/
 static bool m_flash_not_ready;
 
@@ -941,7 +946,6 @@ static inline uint32_t element_store(uint16_t element_index)
     }
 }
 
-
 /* ********** Public API ********** */
 
 static void access_flash_config_clear(void)
@@ -1063,6 +1067,9 @@ void access_flash_config_store(void)
 
     bearer_event_critical_section_end();
 }
+
+
+
 #else
 static void access_flash_config_clear(void)
 {
@@ -2070,3 +2077,17 @@ const void * access_flash_area_get(void)
     return (const flash_manager_page_t *) (((const uint8_t *) dsm_flash_area_get()) - (ACCESS_FLASH_PAGE_COUNT * PAGE_SIZE));
 #endif
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

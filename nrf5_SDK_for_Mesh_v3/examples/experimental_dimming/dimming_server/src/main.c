@@ -95,7 +95,7 @@ APP_LEVEL_SERVER_DEF(m_level_server_0,
  * between 0 and  m_pwm0_max.
  */
 APP_PWM_INSTANCE(PWM0, 1);
-app_pwm_config_t m_pwm0_config = APP_PWM_DEFAULT_CONFIG_1CH(200, BSP_LED_0);
+app_pwm_config_t m_pwm0_config = APP_PWM_DEFAULT_CONFIG_1CH(20000, ARDUINO_8_PIN);
 static uint16_t m_pwm0_max;
 
 /* Application variable for holding instantaneous level value */

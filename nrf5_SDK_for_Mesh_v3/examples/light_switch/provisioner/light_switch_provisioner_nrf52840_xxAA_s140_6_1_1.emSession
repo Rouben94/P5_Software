@@ -1,6 +1,50 @@
 <!DOCTYPE CrossStudio_Session_File>
 <session>
-	<Files>
-		<SessionOpenFile path="../../../doc/getting_started/SES.md"/>
-	</Files>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1/>
+ <Memory2/>
+ <Memory3/>
+ <Memory4/>
+ <Project>
+  <ProjectSessionItem path="light_switch_provisioner_nrf52840_xxAA_s140_6.1.1"/>
+  <ProjectSessionItem path="light_switch_provisioner_nrf52840_xxAA_s140_6.1.1;light_switch_provisioner_nrf52840_xxAA_s140_6.1.1"/>
+  <ProjectSessionItem path="light_switch_provisioner_nrf52840_xxAA_s140_6.1.1;light_switch_provisioner_nrf52840_xxAA_s140_6.1.1;Application"/>
+ </Project>
+ <Register1/>
+ <Register2/>
+ <Register3/>
+ <Register4/>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="21" y="462" useTextEdit="1" useBinaryEdit="0" left="0" path="src/main.c" selected="1" top="12" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="56" useTextEdit="1" useBinaryEdit="0" left="0" path="include/network_setup_types.h" selected="0" top="46" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="187" useTextEdit="1" useBinaryEdit="0" left="0" path="C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.30/include/string.h" selected="0" top="164" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="128" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../mesh/core/include/bitfield.h" selected="0" top="87" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="62" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../mesh/core/api/nrf_mesh_config_core.h" selected="0" top="41" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="light_switch_provisioner_nrf52840_xxAA_s140_6.1.1" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.30/source" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>

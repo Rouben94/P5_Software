@@ -43,7 +43,7 @@
 #include "access.h"
 #include "access_reliable.h"
 #include "generic_level_common.h"
-#include "generic_level_messages.h"
+#include "generic_level_messages_userdefined.h"
 
 
 /**

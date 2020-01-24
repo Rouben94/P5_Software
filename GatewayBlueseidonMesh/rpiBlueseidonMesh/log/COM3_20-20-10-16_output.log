@@ -1,0 +1,98 @@
+2020-01-20 10:16:09,721 - DEBUG - COM3: TX: 6169305e73f15215c63985f39689adba33447ae8d60aead409f54aa66fec0d24f3fcdbab3ca9929b19cf0f8f0be904b0d6db8998df3337301ad3ee648a7f423ae49fe1d8185050a523c0cad875f2ecb0eeba4aea459486731ee3e8061e9a8ba59a29
+2020-01-20 10:16:09,732 - DEBUG - COM3: RX: 03846900
+2020-01-20 10:16:09,732 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 105, 'status': 0, 'data': bytearray(b'')}}
+2020-01-20 10:16:09,733 - DEBUG - COM3: TX: 059f01000100
+2020-01-20 10:16:09,733 - INFO - COM3: Success
+2020-01-20 10:16:09,735 - DEBUG - COM3: RX: 03849f8e
+2020-01-20 10:16:09,743 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 159, 'status': 142, 'data': bytearray(b'')}}
+2020-01-20 10:16:09,743 - DEBUG - COM3: TX: 1392000018eed9c2a56add85049ffc3c59ad0e12
+2020-01-20 10:16:09,743 - ERROR - COM3: None: ERROR_REJECTED
+2020-01-20 10:16:09,746 - DEBUG - COM3: RX: 03849281
+2020-01-20 10:16:09,746 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 146, 'status': 129, 'data': bytearray(b'')}}
+2020-01-20 10:16:09,746 - DEBUG - COM3: TX: 1597000000004f68ad85d9f48ac8589df665b6b49b8a
+2020-01-20 10:16:09,746 - ERROR - COM3: SubnetAdd: ERROR_INTERNAL
+2020-01-20 10:16:09,750 - DEBUG - COM3: RX: 03849781
+2020-01-20 10:16:09,750 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 129, 'data': bytearray(b'')}}
+2020-01-20 10:16:09,751 - DEBUG - COM3: TX: 1597010000002aa2a6ded5a0798ceab5787ca3ae39fc
+2020-01-20 10:16:09,751 - ERROR - COM3: AppkeyAdd: ERROR_INTERNAL
+2020-01-20 10:16:09,754 - DEBUG - COM3: RX: 03849781
+2020-01-20 10:16:09,754 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 129, 'data': bytearray(b'')}}
+2020-01-20 10:16:09,754 - ERROR - COM3: AppkeyAdd: ERROR_INTERNAL
+2020-01-20 10:16:14,698 - DEBUG - COM3: RX: 00
+2020-01-20 10:16:14,698 - ERROR - COM3: Invalid packet: bytearray(b'\x00')
+2020-01-20 10:16:15,113 - DEBUG - COM3: RX: 04810200fe
+2020-01-20 10:16:15,113 - DEBUG - COM3: parsed_packet {event: DeviceStarted, data: {'operating_mode': 2, 'hw_error': 0, 'data_credit_available': 254}}
+2020-01-20 10:16:15,113 - INFO - COM3: Device rebooted.
+2020-01-20 10:16:19,789 - DEBUG - COM3: TX: 6169546cc868957fc1fba3c5f9a6c7cf6722edc30b1cd01686d157848091bcea3a8833bf89263957acceafb0edbda96ebb6fba91471725e86c2923cf97c76b96840029ffc08e027a73a2579251f4dedfd31c6149a0225443ffbc2f64e7120cf10215
+2020-01-20 10:16:19,800 - DEBUG - COM3: RX: 03846900
+2020-01-20 10:16:19,800 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 105, 'status': 0, 'data': bytearray(b'')}}
+2020-01-20 10:16:19,801 - DEBUG - COM3: TX: 059f01000100
+2020-01-20 10:16:19,800 - INFO - COM3: Success
+2020-01-20 10:16:19,803 - DEBUG - COM3: RX: 03849f00
+2020-01-20 10:16:19,803 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 159, 'status': 0, 'data': bytearray(b'')}}
+2020-01-20 10:16:19,803 - DEBUG - COM3: TX: 1392000018eed9c2a56add85049ffc3c59ad0e12
+2020-01-20 10:16:19,803 - INFO - COM3: Success
+2020-01-20 10:16:19,807 - DEBUG - COM3: RX: 058492000000
+2020-01-20 10:16:19,808 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 146, 'status': 0, 'data': bytearray(b'\x00\x00')}}
+2020-01-20 10:16:19,808 - DEBUG - COM3: TX: 1597000000004f68ad85d9f48ac8589df665b6b49b8a
+2020-01-20 10:16:19,808 - INFO - COM3: SubnetAdd: {'subnet_handle': 0}
+2020-01-20 10:16:19,812 - DEBUG - COM3: RX: 058497000000
+2020-01-20 10:16:19,812 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 0, 'data': bytearray(b'\x00\x00')}}
+2020-01-20 10:16:19,812 - DEBUG - COM3: TX: 1597010000002aa2a6ded5a0798ceab5787ca3ae39fc
+2020-01-20 10:16:19,812 - INFO - COM3: AppkeyAdd: {'appkey_handle': 0}
+2020-01-20 10:16:19,816 - DEBUG - COM3: RX: 058497000100
+2020-01-20 10:16:19,816 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 0, 'data': bytearray(b'\x01\x00')}}
+2020-01-20 10:16:19,816 - INFO - COM3: AppkeyAdd: {'appkey_handle': 1}
+2020-01-20 10:16:24,145 - DEBUG - COM3: TX: 0161
+2020-01-20 10:16:24,146 - DEBUG - COM3: RX: 03846100
+2020-01-20 10:16:24,146 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 97, 'status': 0, 'data': bytearray(b'')}}
+2020-01-20 10:16:24,147 - INFO - COM3: Success
+2020-01-20 10:16:24,406 - DEBUG - COM3: RX: 1ac0d9cfbd4418e74240b492f8f01d1cd1acba0001b492f8f01ddc
+2020-01-20 10:16:24,406 - DEBUG - COM3: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd9\xcf\xbdD\x18\xe7B@\xb4\x92\xf8\xf0\x1d\x1c\xd1\xac'), 'rssi': -70, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xb4\x92\xf8\xf0\x1d\xdc')}}
+2020-01-20 10:16:24,407 - INFO - COM3: Received UUID d9cfbd4418e74240b492f8f01d1cd1ac with RSSI: -70 dB
+2020-01-20 10:16:24,506 - DEBUG - COM3: RX: 1ac0c86a88bbfa034047a539d04a8ded330fba00012539d04a8ded
+2020-01-20 10:16:24,506 - DEBUG - COM3: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xc8j\x88\xbb\xfa\x03@G\xa59\xd0J\x8d\xed3\x0f'), 'rssi': -70, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'%9\xd0J\x8d\xed')}}
+2020-01-20 10:16:24,506 - INFO - COM3: Received UUID c86a88bbfa034047a539d04a8ded330f with RSSI: -70 dB
+2020-01-20 10:16:25,861 - DEBUG - COM3: RX: 1ac0d5b91bba0508344a809923e28a48b06dc30001c09923e28ac8
+2020-01-20 10:16:25,861 - DEBUG - COM3: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -61, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2020-01-20 10:16:25,861 - INFO - COM3: Received UUID d5b91bba0508344a809923e28a48b06d with RSSI: -61 dB
+2020-01-20 10:16:26,410 - DEBUG - COM3: RX: 1ac0d9cfbd4418e74240b492f8f01d1cd1acbb0001b492f8f01ddc
+2020-01-20 10:16:26,410 - DEBUG - COM3: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd9\xcf\xbdD\x18\xe7B@\xb4\x92\xf8\xf0\x1d\x1c\xd1\xac'), 'rssi': -69, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xb4\x92\xf8\xf0\x1d\xdc')}}
+2020-01-20 10:16:26,515 - DEBUG - COM3: RX: 1ac0c86a88bbfa034047a539d04a8ded330fb900012539d04a8ded
+2020-01-20 10:16:26,515 - DEBUG - COM3: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xc8j\x88\xbb\xfa\x03@G\xa59\xd0J\x8d\xed3\x0f'), 'rssi': -71, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'%9\xd0J\x8d\xed')}}
+2020-01-20 10:16:27,861 - DEBUG - COM3: RX: 1ac0d5b91bba0508344a809923e28a48b06dc00001c09923e28ac8
+2020-01-20 10:16:27,861 - DEBUG - COM3: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -64, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2020-01-20 10:16:28,410 - DEBUG - COM3: RX: 1ac0d9cfbd4418e74240b492f8f01d1cd1acb90001b492f8f01ddc
+2020-01-20 10:16:28,410 - DEBUG - COM3: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd9\xcf\xbdD\x18\xe7B@\xb4\x92\xf8\xf0\x1d\x1c\xd1\xac'), 'rssi': -71, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xb4\x92\xf8\xf0\x1d\xdc')}}
+2020-01-20 10:16:28,516 - DEBUG - COM3: RX: 1ac0c86a88bbfa034047a539d04a8ded330fb100012539d04a8ded
+2020-01-20 10:16:28,516 - DEBUG - COM3: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xc8j\x88\xbb\xfa\x03@G\xa59\xd0J\x8d\xed3\x0f'), 'rssi': -79, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'%9\xd0J\x8d\xed')}}
+2020-01-20 10:16:29,146 - DEBUG - COM3: TX: 0162
+2020-01-20 10:16:29,147 - DEBUG - COM3: RX: 03846200
+2020-01-20 10:16:29,147 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 98, 'status': 0, 'data': bytearray(b'')}}
+2020-01-20 10:16:29,147 - INFO - COM3: Success
+2020-01-20 10:17:09,639 - DEBUG - COM3: TX: 0161
+2020-01-20 10:17:09,641 - DEBUG - COM3: RX: 03846100
+2020-01-20 10:17:09,641 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 97, 'status': 0, 'data': bytearray(b'')}}
+2020-01-20 10:17:09,641 - INFO - COM3: Success
+2020-01-20 10:17:09,971 - DEBUG - COM3: RX: 1ac0d5b91bba0508344a809923e28a48b06db80001c09923e28ac8
+2020-01-20 10:17:09,971 - DEBUG - COM3: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -72, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2020-01-20 10:17:10,512 - DEBUG - COM3: RX: 1ac0d9cfbd4418e74240b492f8f01d1cd1acbb0001b492f8f01ddc
+2020-01-20 10:17:10,513 - DEBUG - COM3: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd9\xcf\xbdD\x18\xe7B@\xb4\x92\xf8\xf0\x1d\x1c\xd1\xac'), 'rssi': -69, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xb4\x92\xf8\xf0\x1d\xdc')}}
+2020-01-20 10:17:10,616 - DEBUG - COM3: RX: 1ac0c86a88bbfa034047a539d04a8ded330fbc00012539d04a8ded
+2020-01-20 10:17:10,616 - DEBUG - COM3: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xc8j\x88\xbb\xfa\x03@G\xa59\xd0J\x8d\xed3\x0f'), 'rssi': -68, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'%9\xd0J\x8d\xed')}}
+2020-01-20 10:17:11,978 - DEBUG - COM3: RX: 1ac0d5b91bba0508344a809923e28a48b06dc00001c09923e28ac8
+2020-01-20 10:17:11,978 - DEBUG - COM3: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -64, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2020-01-20 10:17:12,513 - DEBUG - COM3: RX: 1ac0d9cfbd4418e74240b492f8f01d1cd1acba0001b492f8f01ddc
+2020-01-20 10:17:12,513 - DEBUG - COM3: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd9\xcf\xbdD\x18\xe7B@\xb4\x92\xf8\xf0\x1d\x1c\xd1\xac'), 'rssi': -70, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xb4\x92\xf8\xf0\x1d\xdc')}}
+2020-01-20 10:17:12,621 - DEBUG - COM3: RX: 1ac0c86a88bbfa034047a539d04a8ded330fba00012539d04a8ded
+2020-01-20 10:17:12,622 - DEBUG - COM3: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xc8j\x88\xbb\xfa\x03@G\xa59\xd0J\x8d\xed3\x0f'), 'rssi': -70, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'%9\xd0J\x8d\xed')}}
+2020-01-20 10:17:13,978 - DEBUG - COM3: RX: 1ac0d5b91bba0508344a809923e28a48b06dc00001c09923e28ac8
+2020-01-20 10:17:13,978 - DEBUG - COM3: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -64, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2020-01-20 10:17:14,522 - DEBUG - COM3: RX: 1ac0d9cfbd4418e74240b492f8f01d1cd1acc20001b492f8f01ddc
+2020-01-20 10:17:14,523 - DEBUG - COM3: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd9\xcf\xbdD\x18\xe7B@\xb4\x92\xf8\xf0\x1d\x1c\xd1\xac'), 'rssi': -62, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xb4\x92\xf8\xf0\x1d\xdc')}}
+2020-01-20 10:17:14,635 - DEBUG - COM3: RX: 1ac0c86a88bbfa034047a539d04a8ded330fb700012539d04a8ded
+2020-01-20 10:17:14,636 - DEBUG - COM3: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xc8j\x88\xbb\xfa\x03@G\xa59\xd0J\x8d\xed3\x0f'), 'rssi': -73, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'%9\xd0J\x8d\xed')}}
+2020-01-20 10:17:14,639 - DEBUG - COM3: TX: 0162
+2020-01-20 10:17:14,640 - DEBUG - COM3: RX: 03846200
+2020-01-20 10:17:14,640 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 98, 'status': 0, 'data': bytearray(b'')}}
+2020-01-20 10:17:14,641 - INFO - COM3: Success

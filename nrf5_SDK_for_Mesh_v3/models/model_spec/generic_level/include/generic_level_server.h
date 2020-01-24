@@ -40,7 +40,7 @@
 
 #include <stdint.h>
 #include "access.h"
-#include "generic_level_common.h"
+#include "generic_level_common_userdefined.h"
 #include "model_common.h"
 
 /**

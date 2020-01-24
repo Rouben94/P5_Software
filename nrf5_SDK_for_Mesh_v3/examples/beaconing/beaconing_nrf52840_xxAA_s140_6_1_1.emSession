@@ -1,6 +1,47 @@
 <!DOCTYPE CrossStudio_Session_File>
 <session>
-	<Files>
-		<SessionOpenFile path="../../doc/getting_started/SES.md"/>
-	</Files>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1/>
+ <Memory2/>
+ <Memory3/>
+ <Memory4/>
+ <Project>
+  <ProjectSessionItem path="beaconing_nrf52840_xxAA_s140_6.1.1"/>
+  <ProjectSessionItem path="beaconing_nrf52840_xxAA_s140_6.1.1;beaconing_nrf52840_xxAA_s140_6.1.1"/>
+  <ProjectSessionItem path="beaconing_nrf52840_xxAA_s140_6.1.1;beaconing_nrf52840_xxAA_s140_6.1.1;Access"/>
+ </Project>
+ <Register1/>
+ <Register2/>
+ <Register3/>
+ <Register4/>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../doc/getting_started/SES.md" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="688" useTextEdit="1" useBinaryEdit="0" left="0" path="../../mesh/access/src/access.c" selected="1" top="681" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="beaconing_nrf52840_xxAA_s140_6.1.1" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.30/source" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>

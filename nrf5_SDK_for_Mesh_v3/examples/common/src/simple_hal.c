@@ -205,6 +205,7 @@ uint32_t hal_buttons_init(hal_button_handler_cb_t cb)
  * IRQ handler(s)
  *****************************************************************************/
 
+
 #if BUTTON_BOARD
 void GPIOTE_IRQHandler(void)
 {

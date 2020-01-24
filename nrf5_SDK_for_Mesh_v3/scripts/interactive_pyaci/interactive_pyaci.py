@@ -39,6 +39,7 @@ import IPython
 import DateTime
 import os
 import colorama
+import time
 
 from argparse import ArgumentParser
 import traitlets.config
@@ -193,6 +194,7 @@ class Interactive(object):
                 self._other_events.append(event)
 
 
+
 def start_ipython(options):
     colorama.init()
     comports = options.devices
@@ -219,6 +221,13 @@ def start_ipython(options):
     device = d[0]
     send = device.acidev.write_aci_cmd  # NOQA: Ignore unused variable
 
+    db = MeshDB("database/example_database.json")
+    p = Provisioner(device, db)
+    p.scan_start()
+    time.sleep(10)
+    p.scan_stop()
+    print(str(p.unprov_list))
+
     # Set iPython configuration
     ipython_config = traitlets.config.get_config()
     if options.no_logfile:
@@ -237,7 +246,10 @@ def start_ipython(options):
     ipython_config.InteractiveShellApp.multiline_history = True
     ipython_config.InteractiveShellApp.log_level = logging.DEBUG
 
-    IPython.embed(config=ipython_config)
+    
+    
+    
+    #IPython.embed(config=ipython_config)
     for dev in d:
         dev.close()
     raise SystemExit(0)

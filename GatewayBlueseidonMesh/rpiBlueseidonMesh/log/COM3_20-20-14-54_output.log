@@ -1,0 +1,20 @@
+2020-01-20 14:54:59,504 - DEBUG - COM3: TX: 616927ff7fdc8d9efbd93d8fc2462f4dec69e4b9c8556bfc0ddd189426f0def2c34f756108f0212801fb24a34ab630a6fbe36159e8dd18b68807071faf9181e4b280d216b24a736875c67dc881724a62fea1e0587f8307d455c75a9d970ea30976ad
+2020-01-20 14:54:59,515 - DEBUG - COM3: RX: 03846900
+2020-01-20 14:54:59,515 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 105, 'status': 0, 'data': bytearray(b'')}}
+2020-01-20 14:54:59,515 - DEBUG - COM3: TX: 059f01000100
+2020-01-20 14:54:59,515 - INFO - COM3: Success
+2020-01-20 14:54:59,518 - DEBUG - COM3: RX: 03849f00
+2020-01-20 14:54:59,527 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 159, 'status': 0, 'data': bytearray(b'')}}
+2020-01-20 14:54:59,527 - DEBUG - COM3: TX: 1392000018eed9c2a56add85049ffc3c59ad0e12
+2020-01-20 14:54:59,527 - INFO - COM3: Success
+2020-01-20 14:54:59,531 - DEBUG - COM3: RX: 058492000000
+2020-01-20 14:54:59,531 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 146, 'status': 0, 'data': bytearray(b'\x00\x00')}}
+2020-01-20 14:54:59,531 - DEBUG - COM3: TX: 1597000000004f68ad85d9f48ac8589df665b6b49b8a
+2020-01-20 14:54:59,531 - INFO - COM3: SubnetAdd: {'subnet_handle': 0}
+2020-01-20 14:54:59,535 - DEBUG - COM3: RX: 058497000000
+2020-01-20 14:54:59,535 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 0, 'data': bytearray(b'\x00\x00')}}
+2020-01-20 14:54:59,535 - DEBUG - COM3: TX: 1597010000002aa2a6ded5a0798ceab5787ca3ae39fc
+2020-01-20 14:54:59,535 - INFO - COM3: AppkeyAdd: {'appkey_handle': 0}
+2020-01-20 14:54:59,539 - DEBUG - COM3: RX: 058497000100
+2020-01-20 14:54:59,539 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 0, 'data': bytearray(b'\x01\x00')}}
+2020-01-20 14:54:59,539 - INFO - COM3: AppkeyAdd: {'appkey_handle': 1}
