@@ -1,0 +1,82 @@
+2019-12-30 17:38:50,260 - DEBUG - COM4: TX: 6169bccf975dc87213c44751addaddf77ccb04c596c1a17a12cde193ae0f03d0b2e7c3e5e05f9170aea4697a115f8fc415d8f8d175b614ecd60eb628db475852a9761eb6149d47064a35d2147e5b7790cb072023b1fe0105bf55f2712a0a9e848b5b
+2019-12-30 17:38:50,272 - DEBUG - COM4: RX: 03846900
+2019-12-30 17:38:50,273 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 105, 'status': 0, 'data': bytearray(b'')}}
+2019-12-30 17:38:50,274 - DEBUG - COM4: TX: 059f01000100
+2019-12-30 17:38:50,273 - INFO - COM4: Success
+2019-12-30 17:38:50,277 - DEBUG - COM4: RX: 03849f00
+2019-12-30 17:38:50,286 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 159, 'status': 0, 'data': bytearray(b'')}}
+2019-12-30 17:38:50,287 - DEBUG - COM4: TX: 1392000018eed9c2a56add85049ffc3c59ad0e12
+2019-12-30 17:38:50,286 - INFO - COM4: Success
+2019-12-30 17:38:50,291 - DEBUG - COM4: RX: 058492000000
+2019-12-30 17:38:50,292 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 146, 'status': 0, 'data': bytearray(b'\x00\x00')}}
+2019-12-30 17:38:50,293 - DEBUG - COM4: TX: 1597000000004f68ad85d9f48ac8589df665b6b49b8a
+2019-12-30 17:38:50,292 - INFO - COM4: SubnetAdd: {'subnet_handle': 0}
+2019-12-30 17:38:50,297 - DEBUG - COM4: RX: 058497000000
+2019-12-30 17:38:50,297 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 0, 'data': bytearray(b'\x00\x00')}}
+2019-12-30 17:38:50,297 - DEBUG - COM4: TX: 1597010000002aa2a6ded5a0798ceab5787ca3ae39fc
+2019-12-30 17:38:50,297 - INFO - COM4: AppkeyAdd: {'appkey_handle': 0}
+2019-12-30 17:38:50,301 - DEBUG - COM4: RX: 058497000100
+2019-12-30 17:38:50,302 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 0, 'data': bytearray(b'\x01\x00')}}
+2019-12-30 17:38:50,302 - INFO - COM4: AppkeyAdd: {'appkey_handle': 1}
+2019-12-30 17:38:57,048 - DEBUG - COM4: TX: 0161
+2019-12-30 17:38:57,050 - DEBUG - COM4: RX: 03846100
+2019-12-30 17:38:57,050 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 97, 'status': 0, 'data': bytearray(b'')}}
+2019-12-30 17:38:57,050 - INFO - COM4: Success
+2019-12-30 17:38:58,380 - DEBUG - COM4: RX: 1ac0d5b91bba0508344a809923e28a48b06dd60001c09923e28ac8
+2019-12-30 17:38:58,380 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -42, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2019-12-30 17:38:58,381 - INFO - COM4: Received UUID d5b91bba0508344a809923e28a48b06d with RSSI: -42 dB
+2019-12-30 17:39:00,381 - DEBUG - COM4: RX: 1ac0d5b91bba0508344a809923e28a48b06dd60001c09923e28ac8
+2019-12-30 17:39:00,381 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -42, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2019-12-30 17:39:02,048 - DEBUG - COM4: TX: 0162
+2019-12-30 17:39:02,050 - DEBUG - COM4: RX: 03846200
+2019-12-30 17:39:02,051 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 98, 'status': 0, 'data': bytearray(b'')}}
+2019-12-30 17:39:02,051 - INFO - COM4: Success
+2019-12-30 17:39:05,050 - DEBUG - COM4: TX: 159c10000000c8789d5965ef5e10d3164fd1b70ba326
+2019-12-30 17:39:05,051 - DEBUG - COM4: TX: 03a41000
+2019-12-30 17:39:05,054 - DEBUG - COM4: RX: 05849c000800
+2019-12-30 17:39:05,055 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 156, 'status': 0, 'data': bytearray(b'\x08\x00')}}
+2019-12-30 17:39:05,055 - INFO - COM4: DevkeyAdd: {'devkey_handle': 8}
+2019-12-30 17:39:05,056 - DEBUG - COM4: RX: 0584a4000000
+2019-12-30 17:39:05,056 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 164, 'status': 0, 'data': bytearray(b'\x00\x00')}}
+2019-12-30 17:39:05,056 - INFO - COM4: AddrPublicationAdd: {'address_handle': 0}
+2019-12-30 17:39:06,050 - DEBUG - COM4: TX: 2d6300d5b91bba0508344a809923e28a48b06d18eed9c2a56add85049ffc3c59ad0e120000000000001800000000
+2019-12-30 17:39:06,057 - DEBUG - COM4: RX: 0484630000
+2019-12-30 17:39:06,057 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 99, 'status': 0, 'data': bytearray(b'\x00')}}
+2019-12-30 17:39:06,058 - INFO - COM4: Provision: {'context': 0}
+2019-12-30 17:39:06,078 - DEBUG - COM4: RX: 02c100
+2019-12-30 17:39:06,078 - DEBUG - COM4: parsed_packet {event: ProvLinkEstablished, data: {'context_id': 0}}
+2019-12-30 17:39:06,079 - INFO - COM4: Link established
+2019-12-30 17:39:06,120 - DEBUG - COM4: RX: 0bc300010001000000000000
+2019-12-30 17:39:06,121 - DEBUG - COM4: parsed_packet {event: ProvCapsReceived, data: {'context_id': 0, 'num_elements': 1, 'public_key_type': 0, 'static_oob_types': 1, 'output_oob_size': 0, 'output_oob_actions': 0, 'input_oob_size': 0, 'input_oob_actions': 0}}
+2019-12-30 17:39:06,121 - INFO - COM4: Received capabilities
+2019-12-30 17:39:06,122 - INFO - COM4: Number of elements: 1
+2019-12-30 17:39:06,122 - DEBUG - COM4: TX: 056600000000
+2019-12-30 17:39:06,125 - DEBUG - COM4: RX: 0484660000
+2019-12-30 17:39:06,125 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 102, 'status': 0, 'data': bytearray(b'\x00')}}
+2019-12-30 17:39:06,125 - INFO - COM4: OobUse: {'context': 0}
+2019-12-30 17:39:08,343 - DEBUG - COM4: RX: 62c70068fea867d328bfd616e04a655a12c434437a0c9fd93895135e45d3dd93125c26a21e12e9a869c2cfb0544c52e63bc456f6a3ac109023a777fdb6a377e1b5c1fabccf975dc87213c44751addaddf77ccb04c596c1a17a12cde193ae0f03d0b2e7
+2019-12-30 17:39:08,343 - DEBUG - COM4: parsed_packet {event: ProvEcdhRequest, data: {'context_id': 0, 'peer_public': bytearray(b'h\xfe\xa8g\xd3(\xbf\xd6\x16\xe0JeZ\x12\xc44Cz\x0c\x9f\xd98\x95\x13^E\xd3\xdd\x93\x12\\&\xa2\x1e\x12\xe9\xa8i\xc2\xcf\xb0TLR\xe6;\xc4V\xf6\xa3\xac\x10\x90#\xa7w\xfd\xb6\xa3w\xe1\xb5\xc1\xfa'), 'node_private': bytearray(b'\xbc\xcf\x97]\xc8r\x13\xc4GQ\xad\xda\xdd\xf7|\xcb\x04\xc5\x96\xc1\xa1z\x12\xcd\xe1\x93\xae\x0f\x03\xd0\xb2\xe7')}}
+2019-12-30 17:39:08,344 - INFO - COM4: ECDH request received
+2019-12-30 17:39:08,345 - DEBUG - COM4: TX: 2268006cfd1ac002dfbe30e14871e5b94a17918e85fc6a68202bfcafa7e6d0c89a20c3
+2019-12-30 17:39:08,351 - DEBUG - COM4: RX: 0484680000
+2019-12-30 17:39:08,352 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 104, 'status': 0, 'data': bytearray(b'\x00')}}
+2019-12-30 17:39:08,352 - INFO - COM4: EcdhSecret: {'context': 0}
+2019-12-30 17:39:08,670 - DEBUG - COM4: RX: 2cc500000000000000180000008c2a17c7d4b654290bdf12294fa5b8d918eed9c2a56add85049ffc3c59ad0e12
+2019-12-30 17:39:08,670 - DEBUG - COM4: parsed_packet {event: ProvComplete, data: {'context_id': 0, 'iv_index': 0, 'net_key_index': 0, 'address': 24, 'iv_update_flag': 0, 'key_refresh_flag': 0, 'device_key': bytearray(b'\x8c*\x17\xc7\xd4\xb6T)\x0b\xdf\x12)O\xa5\xb8\xd9'), 'net_key': bytearray(b'\x18\xee\xd9\xc2\xa5j\xdd\x85\x04\x9f\xfc<Y\xad\x0e\x12')}}
+2019-12-30 17:39:08,671 - INFO - COM4: Provisioning complete
+2019-12-30 17:39:08,671 - INFO - COM4: 	Address(es): 0x18-0x18
+2019-12-30 17:39:08,671 - INFO - COM4: 	Device key: 8c2a17c7d4b654290bdf12294fa5b8d9
+2019-12-30 17:39:08,672 - INFO - COM4: 	Network key: 18eed9c2a56add85049ffc3c59ad0e12
+2019-12-30 17:39:08,672 - INFO - COM4: Adding device key to subnet 0
+2019-12-30 17:39:08,672 - DEBUG - COM4: TX: 159c180000008c2a17c7d4b654290bdf12294fa5b8d9
+2019-12-30 17:39:08,672 - INFO - COM4: Adding publication address of root element
+2019-12-30 17:39:08,673 - DEBUG - COM4: TX: 03a41800
+2019-12-30 17:39:08,682 - DEBUG - COM4: RX: 05849c000900
+2019-12-30 17:39:08,683 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 156, 'status': 0, 'data': bytearray(b'\t\x00')}}
+2019-12-30 17:39:08,683 - INFO - COM4: DevkeyAdd: {'devkey_handle': 9}
+2019-12-30 17:39:08,684 - DEBUG - COM4: RX: 0584a4000100
+2019-12-30 17:39:08,684 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 164, 'status': 0, 'data': bytearray(b'\x01\x00')}}
+2019-12-30 17:39:08,684 - INFO - COM4: AddrPublicationAdd: {'address_handle': 1}
+2019-12-30 17:39:08,773 - DEBUG - COM4: RX: 03c20000
+2019-12-30 17:39:08,773 - DEBUG - COM4: parsed_packet {event: ProvLinkClosed, data: {'context_id': 0, 'close_reason': 0}}
+2019-12-30 17:39:08,774 - INFO - COM4: Provisioning link closed

@@ -1,0 +1,20 @@
+2019-12-30 18:27:02,171 - DEBUG - COM4: TX: 616947bd408811eeb9a50d2215ce2b09ba93fe7caff5e089c6314508ba1b21bae90a61097d85198c77cdb863a6fb1f9b392e9e3573ae4049e8cf35395a5bd22983ab5a4f70bcd85406a147856ce828cc0cc0b7ce60037ec9081e7aee3ad1147e1017
+2019-12-30 18:27:02,183 - DEBUG - COM4: RX: 03846900
+2019-12-30 18:27:02,184 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 105, 'status': 0, 'data': bytearray(b'')}}
+2019-12-30 18:27:02,185 - DEBUG - COM4: TX: 059f01000100
+2019-12-30 18:27:02,185 - INFO - COM4: Success
+2019-12-30 18:27:02,187 - DEBUG - COM4: RX: 03849f8e
+2019-12-30 18:27:02,190 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 159, 'status': 142, 'data': bytearray(b'')}}
+2019-12-30 18:27:02,191 - DEBUG - COM4: TX: 1392000018eed9c2a56add85049ffc3c59ad0e12
+2019-12-30 18:27:02,191 - ERROR - COM4: None: ERROR_REJECTED
+2019-12-30 18:27:02,194 - DEBUG - COM4: RX: 03849281
+2019-12-30 18:27:02,194 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 146, 'status': 129, 'data': bytearray(b'')}}
+2019-12-30 18:27:02,195 - DEBUG - COM4: TX: 1597000000004f68ad85d9f48ac8589df665b6b49b8a
+2019-12-30 18:27:02,194 - ERROR - COM4: SubnetAdd: ERROR_INTERNAL
+2019-12-30 18:27:02,198 - DEBUG - COM4: RX: 03849781
+2019-12-30 18:27:02,198 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 129, 'data': bytearray(b'')}}
+2019-12-30 18:27:02,199 - DEBUG - COM4: TX: 1597010000002aa2a6ded5a0798ceab5787ca3ae39fc
+2019-12-30 18:27:02,198 - ERROR - COM4: AppkeyAdd: ERROR_INTERNAL
+2019-12-30 18:27:02,202 - DEBUG - COM4: RX: 03849781
+2019-12-30 18:27:02,202 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 129, 'data': bytearray(b'')}}
+2019-12-30 18:27:02,202 - ERROR - COM4: AppkeyAdd: ERROR_INTERNAL

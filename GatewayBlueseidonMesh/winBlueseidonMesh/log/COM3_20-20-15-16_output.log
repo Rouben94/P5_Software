@@ -1,0 +1,176 @@
+2020-01-20 15:16:50,565 - DEBUG - COM3: TX: 61695a44fa2e1a9f6e7d16978a716f4d3b6d67f08aee154d65000867992fc72f50d924a1b32d4cb3c778b80ed318392fe6a8a87c3afdf69dbaffe645d1a3a17db4571ffeff7ee58f765dd01f87eca3c6325f88dc1cf5ae2018d14ff6985c3042b9af
+2020-01-20 15:16:50,577 - DEBUG - COM3: RX: 03846900
+2020-01-20 15:16:50,578 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 105, 'status': 0, 'data': bytearray(b'')}}
+2020-01-20 15:16:50,578 - DEBUG - COM3: TX: 059f01000100
+2020-01-20 15:16:50,578 - INFO - COM3: Success
+2020-01-20 15:16:50,581 - DEBUG - COM3: RX: 03849f00
+2020-01-20 15:16:50,581 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 159, 'status': 0, 'data': bytearray(b'')}}
+2020-01-20 15:16:50,582 - DEBUG - COM3: TX: 1392000018eed9c2a56add85049ffc3c59ad0e12
+2020-01-20 15:16:50,582 - INFO - COM3: Success
+2020-01-20 15:16:50,586 - DEBUG - COM3: RX: 058492000000
+2020-01-20 15:16:50,586 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 146, 'status': 0, 'data': bytearray(b'\x00\x00')}}
+2020-01-20 15:16:50,586 - DEBUG - COM3: TX: 1597000000004f68ad85d9f48ac8589df665b6b49b8a
+2020-01-20 15:16:50,586 - INFO - COM3: SubnetAdd: {'subnet_handle': 0}
+2020-01-20 15:16:50,591 - DEBUG - COM3: RX: 058497000000
+2020-01-20 15:16:50,591 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 0, 'data': bytearray(b'\x00\x00')}}
+2020-01-20 15:16:50,592 - DEBUG - COM3: TX: 1597010000002aa2a6ded5a0798ceab5787ca3ae39fc
+2020-01-20 15:16:50,591 - INFO - COM3: AppkeyAdd: {'appkey_handle': 0}
+2020-01-20 15:16:50,596 - DEBUG - COM3: RX: 058497000100
+2020-01-20 15:16:50,596 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 0, 'data': bytearray(b'\x01\x00')}}
+2020-01-20 15:16:50,596 - INFO - COM3: AppkeyAdd: {'appkey_handle': 1}
+2020-01-20 15:16:59,664 - DEBUG - COM3: TX: 0161
+2020-01-20 15:16:59,665 - DEBUG - COM3: RX: 03846100
+2020-01-20 15:16:59,666 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 97, 'status': 0, 'data': bytearray(b'')}}
+2020-01-20 15:16:59,666 - INFO - COM3: Success
+2020-01-20 15:16:59,889 - DEBUG - COM3: RX: 1ac0d5b91bba0508344a809923e28a48b06dbb0001c09923e28ac8
+2020-01-20 15:16:59,890 - DEBUG - COM3: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -69, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2020-01-20 15:16:59,890 - INFO - COM3: Received UUID d5b91bba0508344a809923e28a48b06d with RSSI: -69 dB
+2020-01-20 15:17:01,888 - DEBUG - COM3: RX: 1ac0d5b91bba0508344a809923e28a48b06dc20001c09923e28ac8
+2020-01-20 15:17:01,888 - DEBUG - COM3: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -62, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2020-01-20 15:17:03,896 - DEBUG - COM3: RX: 1ac0d5b91bba0508344a809923e28a48b06dc10001c09923e28ac8
+2020-01-20 15:17:03,896 - DEBUG - COM3: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -63, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2020-01-20 15:17:04,665 - DEBUG - COM3: TX: 0162
+2020-01-20 15:17:04,665 - DEBUG - COM3: RX: 03846200
+2020-01-20 15:17:04,665 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 98, 'status': 0, 'data': bytearray(b'')}}
+2020-01-20 15:17:04,665 - INFO - COM3: Success
+2020-01-20 15:17:22,854 - DEBUG - COM3: TX: 2d6300d5b91bba0508344a809923e28a48b06d18eed9c2a56add85049ffc3c59ad0e120000000000002300000000
+2020-01-20 15:17:22,860 - DEBUG - COM3: RX: 0484630000
+2020-01-20 15:17:22,860 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 99, 'status': 0, 'data': bytearray(b'\x00')}}
+2020-01-20 15:17:22,861 - INFO - COM3: Provision: {'context': 0}
+2020-01-20 15:17:22,885 - DEBUG - COM3: RX: 02c100
+2020-01-20 15:17:22,885 - DEBUG - COM3: parsed_packet {event: ProvLinkEstablished, data: {'context_id': 0}}
+2020-01-20 15:17:22,886 - INFO - COM3: Link established
+2020-01-20 15:17:24,912 - DEBUG - COM3: RX: 0bc300050001000000000000
+2020-01-20 15:17:24,912 - DEBUG - COM3: parsed_packet {event: ProvCapsReceived, data: {'context_id': 0, 'num_elements': 5, 'public_key_type': 0, 'static_oob_types': 1, 'output_oob_size': 0, 'output_oob_actions': 0, 'input_oob_size': 0, 'input_oob_actions': 0}}
+2020-01-20 15:17:24,912 - INFO - COM3: Received capabilities
+2020-01-20 15:17:24,912 - INFO - COM3: Number of elements: 5
+2020-01-20 15:17:24,912 - DEBUG - COM3: TX: 056600000000
+2020-01-20 15:17:24,912 - DEBUG - COM3: RX: 0484660000
+2020-01-20 15:17:24,912 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 102, 'status': 0, 'data': bytearray(b'\x00')}}
+2020-01-20 15:17:24,912 - INFO - COM3: OobUse: {'context': 0}
+2020-01-20 15:17:27,168 - DEBUG - COM3: RX: 62c700ec7bb5a934ccc4f012018cf0d8724909b3a17fad0ac3bb824846b513af9cab3237d691b7a78fe1ac168e6bce1cfaef822f7f00ed5a460a312bc8bc06dfd73a3c5a44fa2e1a9f6e7d16978a716f4d3b6d67f08aee154d65000867992fc72f50d9
+2020-01-20 15:17:27,168 - DEBUG - COM3: parsed_packet {event: ProvEcdhRequest, data: {'context_id': 0, 'peer_public': bytearray(b'\xec{\xb5\xa94\xcc\xc4\xf0\x12\x01\x8c\xf0\xd8rI\t\xb3\xa1\x7f\xad\n\xc3\xbb\x82HF\xb5\x13\xaf\x9c\xab27\xd6\x91\xb7\xa7\x8f\xe1\xac\x16\x8ek\xce\x1c\xfa\xef\x82/\x7f\x00\xedZF\n1+\xc8\xbc\x06\xdf\xd7:<'), 'node_private': bytearray(b'ZD\xfa.\x1a\x9fn}\x16\x97\x8aqoM;mg\xf0\x8a\xee\x15Me\x00\x08g\x99/\xc7/P\xd9')}}
+2020-01-20 15:17:27,168 - INFO - COM3: ECDH request received
+2020-01-20 15:17:27,168 - DEBUG - COM3: TX: 22680097deda8aa18b5c92213c35627b110c1d7b6984b426f579266fd04d812307a96a
+2020-01-20 15:17:27,168 - DEBUG - COM3: RX: 0484680000
+2020-01-20 15:17:27,168 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 104, 'status': 0, 'data': bytearray(b'\x00')}}
+2020-01-20 15:17:27,168 - INFO - COM3: EcdhSecret: {'context': 0}
+2020-01-20 15:17:27,516 - DEBUG - COM3: RX: 2cc5000000000000002300000087b37d840d4117fea44f28eba4f646e218eed9c2a56add85049ffc3c59ad0e12
+2020-01-20 15:17:27,516 - DEBUG - COM3: parsed_packet {event: ProvComplete, data: {'context_id': 0, 'iv_index': 0, 'net_key_index': 0, 'address': 35, 'iv_update_flag': 0, 'key_refresh_flag': 0, 'device_key': bytearray(b'\x87\xb3}\x84\rA\x17\xfe\xa4O(\xeb\xa4\xf6F\xe2'), 'net_key': bytearray(b'\x18\xee\xd9\xc2\xa5j\xdd\x85\x04\x9f\xfc<Y\xad\x0e\x12')}}
+2020-01-20 15:17:27,516 - INFO - COM3: Provisioning complete
+2020-01-20 15:17:27,516 - INFO - COM3: 	Address(es): 0x23-0x27
+2020-01-20 15:17:27,517 - INFO - COM3: 	Device key: 87b37d840d4117fea44f28eba4f646e2
+2020-01-20 15:17:27,517 - INFO - COM3: 	Network key: 18eed9c2a56add85049ffc3c59ad0e12
+2020-01-20 15:17:27,517 - INFO - COM3: Adding device key to subnet 0
+2020-01-20 15:17:27,518 - DEBUG - COM3: TX: 159c2300000087b37d840d4117fea44f28eba4f646e2
+2020-01-20 15:17:27,518 - INFO - COM3: Adding publication address of root element
+2020-01-20 15:17:27,518 - DEBUG - COM3: TX: 03a42300
+2020-01-20 15:17:27,523 - DEBUG - COM3: RX: 05849c000800
+2020-01-20 15:17:27,523 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 156, 'status': 0, 'data': bytearray(b'\x08\x00')}}
+2020-01-20 15:17:27,523 - INFO - COM3: DevkeyAdd: {'devkey_handle': 8}
+2020-01-20 15:17:27,524 - DEBUG - COM3: RX: 0584a4000000
+2020-01-20 15:17:27,524 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 164, 'status': 0, 'data': bytearray(b'\x00\x00')}}
+2020-01-20 15:17:27,524 - INFO - COM3: AddrPublicationAdd: {'address_handle': 0}
+2020-01-20 15:17:27,624 - DEBUG - COM3: RX: 03c20000
+2020-01-20 15:17:27,624 - DEBUG - COM3: parsed_packet {event: ProvLinkClosed, data: {'context_id': 0, 'close_reason': 0}}
+2020-01-20 15:17:27,624 - INFO - COM3: Provisioning link closed
+2020-01-20 15:17:45,000 - DEBUG - COM3.ConfigurationClient: Sending opcode: 8008, data: 00
+2020-01-20 15:17:45,000 - DEBUG - COM3: TX: 0eab08000100000008000000800800
+2020-01-20 15:17:45,003 - DEBUG - COM3: RX: 0784ab0001000000
+2020-01-20 15:17:45,004 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 171, 'status': 0, 'data': bytearray(b'\x01\x00\x00\x00')}}
+2020-01-20 15:17:45,004 - INFO - COM3: PacketSend: {'token': 1}
+2020-01-20 15:17:45,004 - DEBUG - COM3: RX: 05d201000000
+2020-01-20 15:17:45,004 - DEBUG - COM3: parsed_packet {event: MeshTxComplete, data: {'token': 1}}
+2020-01-20 15:17:45,005 - INFO - COM3: {event: MeshTxComplete, data: {'token': 1}}
+2020-01-20 15:17:45,057 - DEBUG - COM3: RX: 2ad023000100080000000401c09923e28ac8b81600020059000000000028000f0000000300000002000210
+2020-01-20 15:17:45,057 - DEBUG - COM3: parsed_packet {event: MeshMessageReceivedUnicast, data: {'src': 35, 'dst': 1, 'appkey_handle': 8, 'subnet_handle': 0, 'ttl': 4, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8'), 'rssi': -72, 'actual_length': 22, 'data': bytearray(b'\x02\x00Y\x00\x00\x00\x00\x00(\x00\x0f\x00\x00\x00\x03\x00\x00\x00\x02\x00\x02\x10')}}
+2020-01-20 15:17:45,062 - INFO - COM3.ConfigurationClient: Received composition data (page 0x00): {
+  "cid": "0059",
+  "pid": "0000",
+  "vid": "0000",
+  "crpl": 40,
+  "features": {
+    "relay": 0,
+    "proxy": 0,
+    "friend": 0,
+    "low_power": 0
+  },
+  "elements": [
+    {
+      "index": 0,
+      "location": "0000",
+      "models": [
+        {
+          "modelId": "0000"
+        },
+        {
+          "modelId": "0002"
+        },
+        {
+          "modelId": "1002"
+        }
+      ]
+    }
+  ]
+}
+2020-01-20 15:17:45,063 - DEBUG - COM3: Message Opcode bytearray(b'\x02'), Data bytearray(b'\x00Y\x00\x00\x00\x00\x00(\x00\x0f\x00\x00\x00\x03\x00\x00\x00\x02\x00\x02\x10') unknown for model <mesh.access.Access object at 0x000002D4466A0640>.
+2020-01-20 15:17:47,013 - DEBUG - COM3.ConfigurationClient: Sending opcode: 00, data: 0000004f68ad85d9f48ac8589df665b6b49b8a
+2020-01-20 15:17:47,013 - DEBUG - COM3: TX: 1fab08000100000008000000000000004f68ad85d9f48ac8589df665b6b49b8a
+2020-01-20 15:17:47,013 - DEBUG - COM3: RX: 0784ab0002000000
+2020-01-20 15:17:47,013 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 171, 'status': 0, 'data': bytearray(b'\x02\x00\x00\x00')}}
+2020-01-20 15:17:47,013 - INFO - COM3: PacketSend: {'token': 2}
+2020-01-20 15:17:47,060 - DEBUG - COM3: RX: 05d202000000
+2020-01-20 15:17:47,060 - DEBUG - COM3: parsed_packet {event: MeshTxComplete, data: {'token': 2}}
+2020-01-20 15:17:47,060 - INFO - COM3: {event: MeshTxComplete, data: {'token': 2}}
+2020-01-20 15:17:47,090 - DEBUG - COM3: RX: 1ad023000100080000000401c09923e28ac8c30600800300000000
+2020-01-20 15:17:47,090 - DEBUG - COM3: parsed_packet {event: MeshMessageReceivedUnicast, data: {'src': 35, 'dst': 1, 'appkey_handle': 8, 'subnet_handle': 0, 'ttl': 4, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8'), 'rssi': -61, 'actual_length': 6, 'data': bytearray(b'\x80\x03\x00\x00\x00\x00')}}
+2020-01-20 15:17:47,090 - INFO - COM3.ConfigurationClient: Appkey status: AccessStatus.SUCCESS
+2020-01-20 15:17:47,104 - INFO - COM3.ConfigurationClient: Appkey add 0 succeded for subnet 0 at node 0023
+2020-01-20 15:17:47,104 - DEBUG - COM3: Message Opcode bytearray(b'\x80\x03'), Data bytearray(b'\x00\x00\x00\x00') unknown for model <mesh.access.Access object at 0x000002D4466A0640>.
+2020-01-20 15:17:48,020 - DEBUG - COM3.ConfigurationClient: Sending opcode: 803d, data: 230000000210
+2020-01-20 15:17:48,020 - DEBUG - COM3: TX: 13ab08000100000008000000803d230000000210
+2020-01-20 15:17:48,020 - DEBUG - COM3: RX: 0784ab0003000000
+2020-01-20 15:17:48,020 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 171, 'status': 0, 'data': bytearray(b'\x03\x00\x00\x00')}}
+2020-01-20 15:17:48,020 - INFO - COM3: PacketSend: {'token': 3}
+2020-01-20 15:17:48,035 - DEBUG - COM3: RX: 05d203000000
+2020-01-20 15:17:48,035 - DEBUG - COM3: parsed_packet {event: MeshTxComplete, data: {'token': 3}}
+2020-01-20 15:17:48,035 - INFO - COM3: {event: MeshTxComplete, data: {'token': 3}}
+2020-01-20 15:17:48,067 - DEBUG - COM3: RX: 1dd023000100080000000401c09923e28ac8c30900803e00230000000210
+2020-01-20 15:17:48,067 - DEBUG - COM3: parsed_packet {event: MeshMessageReceivedUnicast, data: {'src': 35, 'dst': 1, 'appkey_handle': 8, 'subnet_handle': 0, 'ttl': 4, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8'), 'rssi': -61, 'actual_length': 9, 'data': bytearray(b'\x80>\x00#\x00\x00\x00\x02\x10')}}
+2020-01-20 15:17:48,067 - INFO - COM3.ConfigurationClient: Model app bind status: AccessStatus.SUCCESS
+2020-01-20 15:17:48,067 - INFO - COM3.ConfigurationClient: Appkey bind 0 to model 1002 at 0023
+2020-01-20 15:17:48,067 - DEBUG - COM3: Message Opcode bytearray(b'\x80>'), Data bytearray(b'\x00#\x00\x00\x00\x02\x10') unknown for model <mesh.access.Access object at 0x000002D4466A0640>.
+2020-01-20 15:17:52,041 - INFO - COM3.NodeConfigClient: Send Data1: 16
+2020-01-20 15:17:52,041 - INFO - COM3.NodeConfigClient: Send Data2: 0
+2020-01-20 15:17:52,041 - INFO - COM3.NodeConfigClient: Send Data3: 0
+2020-01-20 15:17:52,042 - INFO - COM3.NodeConfigClient: Send Data4: 0
+2020-01-20 15:17:52,042 - INFO - COM3.NodeConfigClient: Send Data: bytearray(b'\x00\x00\x00\x10\x00')
+2020-01-20 15:17:52,042 - DEBUG - COM3.NodeConfigClient: Sending opcode: 8206, data: 0000001000
+2020-01-20 15:17:52,042 - DEBUG - COM3: TX: 12ab0000010000000800000082060000001000
+2020-01-20 15:17:52,047 - DEBUG - COM3: RX: 0784ab0004000000
+2020-01-20 15:17:52,047 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 171, 'status': 0, 'data': bytearray(b'\x04\x00\x00\x00')}}
+2020-01-20 15:17:52,047 - INFO - COM3: PacketSend: {'token': 4}
+2020-01-20 15:17:52,049 - DEBUG - COM3: RX: 05d204000000
+2020-01-20 15:17:52,049 - DEBUG - COM3: parsed_packet {event: MeshTxComplete, data: {'token': 4}}
+2020-01-20 15:17:52,050 - INFO - COM3: {event: MeshTxComplete, data: {'token': 4}}
+2020-01-20 15:17:52,056 - DEBUG - COM3: RX: 18d023000100000000000401c09923e28ac8bb040082080000
+2020-01-20 15:17:52,056 - DEBUG - COM3: parsed_packet {event: MeshMessageReceivedUnicast, data: {'src': 35, 'dst': 1, 'appkey_handle': 0, 'subnet_handle': 0, 'ttl': 4, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8'), 'rssi': -69, 'actual_length': 4, 'data': bytearray(b'\x82\x08\x00\x00')}}
+2020-01-20 15:17:52,056 - DEBUG - COM3: Message Opcode bytearray(b'\x82\x08'), Data bytearray(b'\x00\x00') unknown for model <mesh.access.Access object at 0x000002D4466A0640>.
+2020-01-20 15:17:52,056 - INFO - COM3.NodeConfigClient: Present Level: bytearray(b'\x00\x00') Target Level: bytearray(b'\x00\x00')
+2020-01-20 15:17:57,058 - DEBUG - COM3.ConfigurationClient: Sending opcode: 8049, data: 
+2020-01-20 15:17:57,058 - DEBUG - COM3: TX: 0dab080001000000080000008049
+2020-01-20 15:17:57,058 - DEBUG - COM3: RX: 0784ab0005000000
+2020-01-20 15:17:57,058 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 171, 'status': 0, 'data': bytearray(b'\x05\x00\x00\x00')}}
+2020-01-20 15:17:57,058 - INFO - COM3: PacketSend: {'token': 5}
+2020-01-20 15:17:57,058 - DEBUG - COM3: RX: 05d205000000
+2020-01-20 15:17:57,058 - DEBUG - COM3: parsed_packet {event: MeshTxComplete, data: {'token': 5}}
+2020-01-20 15:17:57,058 - INFO - COM3: {event: MeshTxComplete, data: {'token': 5}}
+2020-01-20 15:17:57,073 - DEBUG - COM3: RX: 16d023000100080000000401c09923e28ac8c20200804a
+2020-01-20 15:17:57,089 - DEBUG - COM3: parsed_packet {event: MeshMessageReceivedUnicast, data: {'src': 35, 'dst': 1, 'appkey_handle': 8, 'subnet_handle': 0, 'ttl': 4, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8'), 'rssi': -62, 'actual_length': 2, 'data': bytearray(b'\x80J')}}
+2020-01-20 15:17:57,089 - INFO - COM3.ConfigurationClient: Node 0023 was reset
+2020-01-20 15:17:57,089 - DEBUG - COM3: Message Opcode bytearray(b'\x80J'), Data bytearray(b'') unknown for model <mesh.access.Access object at 0x000002D4466A0640>.
+2020-01-20 15:18:27,522 - DEBUG - COM3: RX: 00
+2020-01-20 15:18:27,522 - ERROR - COM3: Invalid packet: bytearray(b'\x00')
+2020-01-20 15:18:27,945 - DEBUG - COM3: RX: 04810200fe
+2020-01-20 15:18:27,945 - DEBUG - COM3: parsed_packet {event: DeviceStarted, data: {'operating_mode': 2, 'hw_error': 0, 'data_credit_available': 254}}
+2020-01-20 15:18:27,946 - INFO - COM3: Device rebooted.

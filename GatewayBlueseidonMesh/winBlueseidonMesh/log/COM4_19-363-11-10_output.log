@@ -1,0 +1,8 @@
+2019-12-29 11:10:29,806 - DEBUG - COM4: RX: 04810200fe
+2019-12-29 11:10:29,806 - DEBUG - COM4: parsed_packet {event: DeviceStarted, data: {'operating_mode': 2, 'hw_error': 0, 'data_credit_available': 254}}
+2019-12-29 11:10:29,806 - INFO - COM4: Device rebooted.
+2019-12-29 11:12:14,579 - DEBUG - COM4: RX: 00
+2019-12-29 11:12:14,579 - ERROR - COM4: Invalid packet: bytearray(b'\x00')
+2019-12-29 11:12:14,993 - DEBUG - COM4: RX: 04810200fe
+2019-12-29 11:12:14,993 - DEBUG - COM4: parsed_packet {event: DeviceStarted, data: {'operating_mode': 2, 'hw_error': 0, 'data_credit_available': 254}}
+2019-12-29 11:12:15,001 - INFO - COM4: Device rebooted.

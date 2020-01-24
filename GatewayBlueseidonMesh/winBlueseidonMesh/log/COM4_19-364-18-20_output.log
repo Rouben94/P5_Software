@@ -1,0 +1,45 @@
+2019-12-30 18:20:11,146 - DEBUG - COM4: TX: 6169660739838f8693bfde24e2a1d25abba7dc7f6731f5bcef721291f630561f8a5ab3f642d3b15b76a7200cf17c53919529fa90a3ae003858c11bd7da096f045d0bf015a46987f1ae4d06fcf2db7750eac41cd95327f0a65e88cde8c7b9f6dc60d5
+2019-12-30 18:20:11,157 - DEBUG - COM4: RX: 03846900
+2019-12-30 18:20:11,157 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 105, 'status': 0, 'data': bytearray(b'')}}
+2019-12-30 18:20:11,158 - DEBUG - COM4: TX: 059f01000100
+2019-12-30 18:20:11,158 - INFO - COM4: Success
+2019-12-30 18:20:11,161 - DEBUG - COM4: RX: 03849f8e
+2019-12-30 18:20:11,170 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 159, 'status': 142, 'data': bytearray(b'')}}
+2019-12-30 18:20:11,171 - DEBUG - COM4: TX: 1392000018eed9c2a56add85049ffc3c59ad0e12
+2019-12-30 18:20:11,170 - ERROR - COM4: None: ERROR_REJECTED
+2019-12-30 18:20:11,174 - DEBUG - COM4: RX: 03849281
+2019-12-30 18:20:11,174 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 146, 'status': 129, 'data': bytearray(b'')}}
+2019-12-30 18:20:11,175 - DEBUG - COM4: TX: 1597000000004f68ad85d9f48ac8589df665b6b49b8a
+2019-12-30 18:20:11,174 - ERROR - COM4: SubnetAdd: ERROR_INTERNAL
+2019-12-30 18:20:11,179 - DEBUG - COM4: RX: 03849781
+2019-12-30 18:20:11,179 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 129, 'data': bytearray(b'')}}
+2019-12-30 18:20:11,179 - DEBUG - COM4: TX: 1597010000002aa2a6ded5a0798ceab5787ca3ae39fc
+2019-12-30 18:20:11,179 - ERROR - COM4: AppkeyAdd: ERROR_INTERNAL
+2019-12-30 18:20:11,183 - DEBUG - COM4: RX: 03849781
+2019-12-30 18:20:11,183 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 129, 'data': bytearray(b'')}}
+2019-12-30 18:20:11,184 - ERROR - COM4: AppkeyAdd: ERROR_INTERNAL
+2019-12-30 18:20:18,174 - DEBUG - COM4: TX: 0161
+2019-12-30 18:20:18,176 - DEBUG - COM4: RX: 03846100
+2019-12-30 18:20:18,176 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 97, 'status': 0, 'data': bytearray(b'')}}
+2019-12-30 18:20:18,176 - INFO - COM4: Success
+2019-12-30 18:20:23,175 - DEBUG - COM4: TX: 0162
+2019-12-30 18:20:23,177 - DEBUG - COM4: RX: 03846200
+2019-12-30 18:20:23,177 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 98, 'status': 0, 'data': bytearray(b'')}}
+2019-12-30 18:20:23,178 - INFO - COM4: Success
+2019-12-30 18:20:28,204 - DEBUG - COM4: RX: 04810200fe
+2019-12-30 18:20:28,205 - DEBUG - COM4: parsed_packet {event: DeviceStarted, data: {'operating_mode': 2, 'hw_error': 0, 'data_credit_available': 254}}
+2019-12-30 18:20:28,205 - INFO - COM4: Device rebooted.
+2019-12-30 18:21:00,087 - DEBUG - COM4: TX: 6169506e518e344727e6355ce34668dc011c6419a81e8b52369399c0daa46cb4c2ef2c409443a781642a6c1fafc62c33379f4775324c99c02a8b9a15548f4a6ac8d8dd0d73b2dcda0214baf71472d28b51f1e4ffb3d4082d69eda4896c9b28daf114
+2019-12-30 18:21:02,093 - INFO - COM4: cmd KeypairSet, timeout waiting for event
+2019-12-30 18:21:02,093 - DEBUG - COM4: TX: 059f01000100
+2019-12-30 18:21:04,094 - INFO - COM4: cmd AddrLocalUnicastSet, timeout waiting for event
+2019-12-30 18:21:04,095 - DEBUG - COM4: TX: 1392000018eed9c2a56add85049ffc3c59ad0e12
+2019-12-30 18:21:06,096 - INFO - COM4: cmd SubnetAdd, timeout waiting for event
+2019-12-30 18:21:06,096 - DEBUG - COM4: TX: 1597000000004f68ad85d9f48ac8589df665b6b49b8a
+2019-12-30 18:21:08,097 - INFO - COM4: cmd AppkeyAdd, timeout waiting for event
+2019-12-30 18:21:08,097 - DEBUG - COM4: TX: 1597010000002aa2a6ded5a0798ceab5787ca3ae39fc
+2019-12-30 18:21:10,098 - INFO - COM4: cmd AppkeyAdd, timeout waiting for event
+2019-12-30 18:21:10,098 - DEBUG - COM4: TX: 0161
+2019-12-30 18:21:12,100 - INFO - COM4: cmd ScanStart, timeout waiting for event
+2019-12-30 18:21:12,100 - DEBUG - COM4: TX: 0162
+2019-12-30 18:21:14,102 - INFO - COM4: cmd ScanStop, timeout waiting for event

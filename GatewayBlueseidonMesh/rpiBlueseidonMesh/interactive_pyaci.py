@@ -117,7 +117,7 @@ class Interactive(object):
     DEFAULT_LOCAL_UNICAST_ADDRESS_START = 0x0001
     CONFIG = ApplicationConfig(
         header_path=os.path.join(os.path.dirname(sys.argv[0]),
-                                 ("../../examples/serial/include/"
+                                 ("include/"
                                   + "nrf_mesh_config_app.h")))
     PRINT_ALL_EVENTS = True
 

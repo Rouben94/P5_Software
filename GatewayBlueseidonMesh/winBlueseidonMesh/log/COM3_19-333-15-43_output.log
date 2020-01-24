@@ -1,0 +1,11 @@
+2019-11-29 15:43:34,935 - INFO - COM3.NodeConfigClient: Send Data1: 18
+2019-11-29 15:43:34,935 - INFO - COM3.NodeConfigClient: Send Data2: 52
+2019-11-29 15:43:34,936 - INFO - COM3.NodeConfigClient: Send Data3: 86
+2019-11-29 15:43:34,936 - INFO - COM3.NodeConfigClient: Send Data4: 120
+2019-11-29 15:43:34,936 - INFO - COM3.NodeConfigClient: Send Data: bytearray(b'\x124Vx\x00')
+2019-11-29 15:43:34,937 - DEBUG - COM3.NodeConfigClient: Sending opcode: 8206, data: 1234567800
+2019-11-29 15:43:34,937 - DEBUG - COM3: TX: 12ab0000010001000800000082061234567800
+2019-11-29 15:43:34,941 - DEBUG - COM3: RX: 0384ab8e
+2019-11-29 15:43:34,942 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 171, 'status': 142, 'data': bytearray(b'')}}
+2019-11-29 15:43:34,942 - ERROR - COM3: PacketSend: ERROR_REJECTED
+2019-11-29 15:45:58,282 - DEBUG - COM3: exited read event

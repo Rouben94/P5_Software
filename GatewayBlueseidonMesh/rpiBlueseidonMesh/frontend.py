@@ -117,13 +117,15 @@ def connect_to_existing_mesh():
     cc.composition_data_get()
 
 
-def script_startup():
+def script_startup(input_options_startup):
 
     global device
-    device = interactive_pyaci.start_ipython(input_options)
+    device = interactive_pyaci.start_ipython(input_options_startup)
     global db
-    db = interactive_pyaci.MeshDB(
-        r"C:\Tools\NRF\nrf5_SDK_for_Mesh_v3.2.0_src\scripts\interactive_pyaci_ohne_IPython\database\example_database.json")
+    db = interactive_pyaci.MeshDB("database/" + "example_database.json")
+
+    #db = interactive_pyaci.MeshDB(
+    #    r"C:\Tools\NRF\nrf5_SDK_for_Mesh_v3.2.0_src\scripts\interactive_pyaci_ohne_IPython\database\example_database.json")
     global p
     p = interactive_pyaci.Provisioner(device, db)
     global cc
@@ -236,14 +238,14 @@ if __name__ == '__main__':
                               + "1=Errors only, 2=Warnings, 3=Info, 4=Debug"))
     input_options = parser.parse_args()
 
-    input_options.devices = ["COM3"]
+    input_options.devices = ["/dev/ttyACM0"]
 
     for line in sys.stdin:
         line = line.strip()
         # print(line)
 
         if line == "script_startup":
-            script_startup()
+            script_startup(input_options)
             print("**Script Startup")
 
         if line == "connect_to_mesh":

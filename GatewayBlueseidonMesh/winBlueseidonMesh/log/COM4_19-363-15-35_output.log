@@ -1,0 +1,36 @@
+2019-12-29 15:35:08,827 - DEBUG - COM4: TX: 6169abc1e52a98ff6aed7786fcb1ae89d81be5dae8366bb258664495efd9e42f62db7952949ac7bace2a6959192403a7a500ae985a23ad882d768dc12a6431de962714f514c88edc2303ae9961c01aa406d67abbf1819adf364a07d35541119c179c
+2019-12-29 15:35:08,838 - DEBUG - COM4: RX: 03846900
+2019-12-29 15:35:08,838 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 105, 'status': 0, 'data': bytearray(b'')}}
+2019-12-29 15:35:08,839 - INFO - COM4: Success
+2019-12-29 15:35:08,839 - DEBUG - COM4: TX: 059f01000100
+2019-12-29 15:35:08,841 - DEBUG - COM4: RX: 03849f8e
+2019-12-29 15:35:08,851 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 159, 'status': 142, 'data': bytearray(b'')}}
+2019-12-29 15:35:08,851 - DEBUG - COM4: TX: 1392000018eed9c2a56add85049ffc3c59ad0e12
+2019-12-29 15:35:08,851 - ERROR - COM4: None: ERROR_REJECTED
+2019-12-29 15:35:08,854 - DEBUG - COM4: RX: 03849281
+2019-12-29 15:35:08,854 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 146, 'status': 129, 'data': bytearray(b'')}}
+2019-12-29 15:35:08,855 - DEBUG - COM4: TX: 1597000000004f68ad85d9f48ac8589df665b6b49b8a
+2019-12-29 15:35:08,855 - ERROR - COM4: SubnetAdd: ERROR_INTERNAL
+2019-12-29 15:35:08,858 - DEBUG - COM4: RX: 03849781
+2019-12-29 15:35:08,858 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 129, 'data': bytearray(b'')}}
+2019-12-29 15:35:08,859 - ERROR - COM4: AppkeyAdd: ERROR_INTERNAL
+2019-12-29 15:35:08,859 - DEBUG - COM4: TX: 1597010000002aa2a6ded5a0798ceab5787ca3ae39fc
+2019-12-29 15:35:08,862 - DEBUG - COM4: RX: 03849781
+2019-12-29 15:35:08,863 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 129, 'data': bytearray(b'')}}
+2019-12-29 15:35:08,863 - ERROR - COM4: AppkeyAdd: ERROR_INTERNAL
+2019-12-29 15:35:10,827 - DEBUG - COM4: TX: 0161
+2019-12-29 15:35:10,828 - DEBUG - COM4: RX: 03846100
+2019-12-29 15:35:10,828 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 97, 'status': 0, 'data': bytearray(b'')}}
+2019-12-29 15:35:10,828 - INFO - COM4: Success
+2019-12-29 15:35:13,127 - DEBUG - COM4: RX: 1ac0d5b91bba0508344a809923e28a48b06dd20001c09923e28ac8
+2019-12-29 15:35:13,127 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -46, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2019-12-29 15:35:13,128 - INFO - COM4: Received UUID d5b91bba0508344a809923e28a48b06d with RSSI: -46 dB
+2019-12-29 15:35:15,121 - DEBUG - COM4: RX: 1ac0d5b91bba0508344a809923e28a48b06dce0001c09923e28ac8
+2019-12-29 15:35:15,121 - DEBUG - COM4: parsed_packet {event: ProvUnprovisionedReceived, data: {'uuid': bytearray(b'\xd5\xb9\x1b\xba\x05\x084J\x80\x99#\xe2\x8aH\xb0m'), 'rssi': -50, 'gatt_supported': 0, 'adv_addr_type': 1, 'adv_addr': bytearray(b'\xc0\x99#\xe2\x8a\xc8')}}
+2019-12-29 15:35:15,828 - DEBUG - COM4: TX: 0162
+2019-12-29 15:35:15,830 - DEBUG - COM4: RX: 03846200
+2019-12-29 15:35:15,830 - DEBUG - COM4: parsed_packet {event: CmdRsp, data: {'opcode': 98, 'status': 0, 'data': bytearray(b'')}}
+2019-12-29 15:35:15,831 - INFO - COM4: Success
+2019-12-29 15:37:00,902 - DEBUG - COM4: RX: 04810200fe
+2019-12-29 15:37:00,902 - DEBUG - COM4: parsed_packet {event: DeviceStarted, data: {'operating_mode': 2, 'hw_error': 0, 'data_credit_available': 254}}
+2019-12-29 15:37:00,903 - INFO - COM4: Device rebooted.

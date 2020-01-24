@@ -1,0 +1,50 @@
+2020-01-20 14:52:05,039 - DEBUG - COM3: TX: 616991fc49977ab0071fb902e6782626d8bcfe2261320c0b18901d0a649785acf3dec92a8f019758d310876cac6b6e565528e5de7579d019a4c650f20b8b08e278d9e73245c3a31a0793a33db0bee6ec36cc83e2e34d76e45ac35cc49d5f368604ce
+2020-01-20 14:52:05,051 - DEBUG - COM3: RX: 03846900
+2020-01-20 14:52:05,051 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 105, 'status': 0, 'data': bytearray(b'')}}
+2020-01-20 14:52:05,052 - DEBUG - COM3: TX: 059f01000100
+2020-01-20 14:52:05,052 - INFO - COM3: Success
+2020-01-20 14:52:05,054 - DEBUG - COM3: RX: 03849f8e
+2020-01-20 14:52:05,064 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 159, 'status': 142, 'data': bytearray(b'')}}
+2020-01-20 14:52:05,064 - DEBUG - COM3: TX: 1392000018eed9c2a56add85049ffc3c59ad0e12
+2020-01-20 14:52:05,064 - ERROR - COM3: None: ERROR_REJECTED
+2020-01-20 14:52:05,067 - DEBUG - COM3: RX: 03849281
+2020-01-20 14:52:05,067 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 146, 'status': 129, 'data': bytearray(b'')}}
+2020-01-20 14:52:05,068 - DEBUG - COM3: TX: 1597000000004f68ad85d9f48ac8589df665b6b49b8a
+2020-01-20 14:52:05,067 - ERROR - COM3: SubnetAdd: ERROR_INTERNAL
+2020-01-20 14:52:05,071 - DEBUG - COM3: RX: 03849781
+2020-01-20 14:52:05,071 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 129, 'data': bytearray(b'')}}
+2020-01-20 14:52:05,072 - DEBUG - COM3: TX: 1597010000002aa2a6ded5a0798ceab5787ca3ae39fc
+2020-01-20 14:52:05,071 - ERROR - COM3: AppkeyAdd: ERROR_INTERNAL
+2020-01-20 14:52:05,075 - DEBUG - COM3: RX: 03849781
+2020-01-20 14:52:05,075 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 129, 'data': bytearray(b'')}}
+2020-01-20 14:52:05,076 - ERROR - COM3: AppkeyAdd: ERROR_INTERNAL
+2020-01-20 14:52:09,153 - DEBUG - COM3: RX: 00
+2020-01-20 14:52:09,153 - ERROR - COM3: Invalid packet: bytearray(b'\x00')
+2020-01-20 14:52:09,582 - DEBUG - COM3: RX: 04810200fe
+2020-01-20 14:52:09,582 - DEBUG - COM3: parsed_packet {event: DeviceStarted, data: {'operating_mode': 2, 'hw_error': 0, 'data_credit_available': 254}}
+2020-01-20 14:52:09,583 - INFO - COM3: Device rebooted.
+2020-01-20 14:52:14,437 - DEBUG - COM3: TX: 6169bb168bb9af7b929903c22fc4e0122a6ea41095b666d7d541fc3c2d36756c0d4c80796c2830802730ef3b428c43de48ad0e93d9e484362892a9ed289674245cb551bf89f7b1f61e7572cb38c2240d4c3d687cbaccaf289d6508d1ea85cfdcbe60
+2020-01-20 14:52:14,448 - DEBUG - COM3: RX: 03846900
+2020-01-20 14:52:14,449 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 105, 'status': 0, 'data': bytearray(b'')}}
+2020-01-20 14:52:14,450 - DEBUG - COM3: TX: 059f01000100
+2020-01-20 14:52:14,449 - INFO - COM3: Success
+2020-01-20 14:52:14,452 - DEBUG - COM3: RX: 03849f00
+2020-01-20 14:52:14,452 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 159, 'status': 0, 'data': bytearray(b'')}}
+2020-01-20 14:52:14,453 - DEBUG - COM3: TX: 1392000018eed9c2a56add85049ffc3c59ad0e12
+2020-01-20 14:52:14,453 - INFO - COM3: Success
+2020-01-20 14:52:14,457 - DEBUG - COM3: RX: 058492000000
+2020-01-20 14:52:14,457 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 146, 'status': 0, 'data': bytearray(b'\x00\x00')}}
+2020-01-20 14:52:14,458 - DEBUG - COM3: TX: 1597000000004f68ad85d9f48ac8589df665b6b49b8a
+2020-01-20 14:52:14,458 - INFO - COM3: SubnetAdd: {'subnet_handle': 0}
+2020-01-20 14:52:14,462 - DEBUG - COM3: RX: 058497000000
+2020-01-20 14:52:14,463 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 0, 'data': bytearray(b'\x00\x00')}}
+2020-01-20 14:52:14,463 - DEBUG - COM3: TX: 1597010000002aa2a6ded5a0798ceab5787ca3ae39fc
+2020-01-20 14:52:14,463 - INFO - COM3: AppkeyAdd: {'appkey_handle': 0}
+2020-01-20 14:52:14,467 - DEBUG - COM3: RX: 058497000100
+2020-01-20 14:52:14,467 - DEBUG - COM3: parsed_packet {event: CmdRsp, data: {'opcode': 151, 'status': 0, 'data': bytearray(b'\x01\x00')}}
+2020-01-20 14:52:14,468 - INFO - COM3: AppkeyAdd: {'appkey_handle': 1}
+2020-01-20 14:54:53,347 - DEBUG - COM3: RX: 00
+2020-01-20 14:54:53,348 - ERROR - COM3: Invalid packet: bytearray(b'\x00')
+2020-01-20 14:54:53,762 - DEBUG - COM3: RX: 04810200fe
+2020-01-20 14:54:53,763 - DEBUG - COM3: parsed_packet {event: DeviceStarted, data: {'operating_mode': 2, 'hw_error': 0, 'data_credit_available': 254}}
+2020-01-20 14:54:53,763 - INFO - COM3: Device rebooted.
