@@ -122,9 +122,9 @@ def script_startup(input_options_startup):
     global device
     device = interactive_pyaci.start_ipython(input_options_startup)
     global db
-    db = interactive_pyaci.MeshDB("database/" + "example_database.json")
+    db = interactive_pyaci.MeshDB("database/" + "database_demo.json")
 
-    #db = interactive_pyaci.MeshDB(
+    # db = interactive_pyaci.MeshDB(
     #    r"C:\Tools\NRF\nrf5_SDK_for_Mesh_v3.2.0_src\scripts\interactive_pyaci_ohne_IPython\database\example_database.json")
     global p
     p = interactive_pyaci.Provisioner(device, db)
@@ -143,7 +143,6 @@ def script_startup(input_options_startup):
 
 def light_switch(light_switch_params):
     print("**Light Switch Status: ", bool(int(light_switch_params[1])))
-
 
     g_onoff_client.publish_set(0, 0)
     print("**gofc set")
