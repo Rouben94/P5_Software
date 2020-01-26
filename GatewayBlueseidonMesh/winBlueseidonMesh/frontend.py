@@ -22,7 +22,6 @@ from models.generic_on_off import GenericOnOffClient    # NOQA: ignore unused im
 from models.node_config import NodeConfigClient    # NOQA: ignore unused import
 
 # device = None
-inputdevice = "/dev/ttyACM0"
 
 
 def scan_unprovisioned_nodes():
@@ -48,12 +47,6 @@ def provision_node(provision_params):
     time.sleep(1)
 
     p.provision(uuid=provision_params[1], name=provision_params[2])
-
-    time.sleep(3)
-    global cc
-    cc.publish_set(8, 0)
-    cc.composition_data_get()
-    time.sleep(2)
 
 
 def config_node(nodeconfig_params):
@@ -129,10 +122,10 @@ def script_startup(input_options_startup):
     global device
     device = interactive_pyaci.start_ipython(input_options_startup)
     global db
-    db = interactive_pyaci.MeshDB("database/" + "database_demo.json")
-
-    # db = interactive_pyaci.MeshDB(
-    #    r"C:\Tools\NRF\nrf5_SDK_for_Mesh_v3.2.0_src\scripts\interactive_pyaci_ohne_IPython\database\example_database.json")
+    db = interactive_pyaci.MeshDB("database/" + "example_database.json")
+    #db = interactive_pyaci.MeshDB(
+    #   r"C:\Tools\NRF\nrf5_SDK_for_Mesh_v3.2.0_src\scripts\interactive_pyaci_ohne_IPython\database\example_database.json")
+    time.sleep(1)
     global p
     p = interactive_pyaci.Provisioner(device, db)
     global cc
@@ -141,9 +134,9 @@ def script_startup(input_options_startup):
     global nc
     nc = interactive_pyaci.NodeConfigClient()
     device.model_add(nc)
-    global gc
-    gc = interactive_pyaci.GenericOnOffClient()
-    device.model_add(gc)
+    global g_onoff_client
+    g_onoff_client = interactive_pyaci.GenericOnOffClient()
+    device.model_add(g_onoff_client)
 
     print("**ipython started")
 
@@ -151,9 +144,10 @@ def script_startup(input_options_startup):
 def light_switch(light_switch_params):
     print("**Light Switch Status: ", bool(int(light_switch_params[1])))
 
-    gc.publish_set(0, 0)
-    print("**gc set")
-    gc.set(bool(int(light_switch_params[1])))
+
+    g_onoff_client.publish_set(0, 0)
+    print("**gofc set")
+    g_onoff_client.set(bool(int(light_switch_params[1])))
     time.sleep(2)
 
     print("**Set value to: ", bool(int(light_switch_params[1])))
@@ -173,16 +167,13 @@ def subscription_add(subscription_params):
     time.sleep(1)
     print("**Appkey Added")
 
-    cc.model_app_bind(db.nodes[int(subscription_params[2])].unicast_address, 0, mt.ModelId(0x1000))
+    cc.model_app_bind(
+        (db.nodes[int(subscription_params[2])].unicast_address) + 1, 0, mt.ModelId(0x1000))
     time.sleep(1)
     print("**Appkey Bound")
 
-    cc.model_subscription_add(db.nodes[int(subscription_params[2])].unicast_address,
+    cc.model_subscription_add(db.nodes[int(subscription_params[2])].unicast_address + 1,
                               db.groups[int(subscription_params[3])].address, mt.ModelId(0x1000))
-
-    time.sleep(2)
-    cc.composition_data_get()
-    time.sleep(1)
 
 
 def publication_add(publication_params):
@@ -247,13 +238,14 @@ if __name__ == '__main__':
                               + "1=Errors only, 2=Warnings, 3=Info, 4=Debug"))
     input_options = parser.parse_args()
 
-    input_options.devices = [inputdevice]
+    input_options.devices = ["COM3"]
 
     for line in sys.stdin:
         line = line.strip()
         # print(line)
 
         if line == "script_startup":
+            print("**Test startup")
             script_startup(input_options)
             print("**Script Startup")
 
@@ -281,7 +273,7 @@ if __name__ == '__main__':
             light_switch_params = list(line.split(" "))
             light_switch(light_switch_params)
             time.sleep(1)
-            print("**Light successfully set ", light_switch_params[1])
+            print("**Light successfully set ", light_switch_params[3])
 
         if "subscription_add" in line.split():
             subscription_params = list(line.split(" "))

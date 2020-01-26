@@ -27,45 +27,43 @@
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
-import re
+from mesh.access import Model, Opcode
+import struct
 
 
-class ApplicationConfig(object):
-    def __init__(self, header_path=("include/"
-                                    + "nrf_mesh_config_app.h")):
+class SimpleOnOffClient(Model):
+    SIMPLE_ON_OFF_STATUS = Opcode(0xc4, 0x59, "Simple OnOff Status")
+    SIMPLE_ON_OFF_SET = Opcode(0xc1, 0x59, "Simple OnOff Set")
+    SIMPLE_ON_OFF_GET = Opcode(0xc2, 0x59, "Simple OnOff Get")
+    SIMPLE_ON_OFF_SET_UNACKNOWLEDGED = Opcode(0xc3, 0x59, "Simple OnOff Set Unacknowledged")
 
-        self.data = {}
+    def __init__(self):
+        self.opcodes = [
+            (self.SIMPLE_ON_OFF_STATUS, self.__simple_on_off_status_handler)]
+        self.__tid = 0
+        super(SimpleOnOffClient, self).__init__(self.opcodes)
 
-        # Regular expression that finds all #define pairs
-        # NOTE: This will not work for bitfield types, e.g., (1 << 3)
-        r = re.compile("#define\s+([A-Za-z0-9_]+)[\s(]+([A-Za-z0-9_]+)")
-        fdata = ""
+    def set(self, state):
+        message = bytearray()
+        message += struct.pack("<BB", int(state), self._tid)
+        self.send(self.SIMPLE_ON_OFF_SET, message)
 
-        # Read the header into a string
-        with open(header_path, "r") as f:
-            fdata = f.read()
+    def get(self):
+        self.send(self.SIMPLE_ON_OFF_GET)
 
-        matches = r.findall(fdata)
-        for match in matches:
-            self.data[match[0]] = self.define_parse(match[1])
+    def unacknowledged_set(self, state):
+        message = bytearray()
+        message += struct.pack("<BB", int(state), self._tid)
+        self.send(self.SIMPLE_ON_OFF_SET_UNACKNOWLEDGED, message)
 
-        # Setting this allows the user to access the configuration data
-        # as, e.g., ApplicationConfig.DEVICE_ID
-        self.__dict__ = self.data
+    @property
+    def _tid(self):
+        tid = self.__tid
+        self.__tid += 1
+        if self.__tid >= 255:
+            self.__tid = 0
+        return tid
 
-    def define_parse(self, define):
-        DEFINE_LUT = {"ACCESS_COMPANY_ID_NONE": 0xFFFF,
-                      "ACCESS_COMPANY_ID_NORDIC": 0x0059,
-                      "ACCESS_TTL_USE_DEFAULT": 0xFF,
-                      "CONFIG_FEATURE_RELAY_BIT": 1}
-
-        if define.lower().startswith("0x"):
-            return int(define, 16)
-        elif define.isdigit():
-            return int(define, 10)
-        elif define in DEFINE_LUT.keys():
-            return DEFINE_LUT[define]
-        elif define in self.data.keys():
-            return self.data[define]
-        else:
-            return None
+    def __simple_on_off_status_handler(self, opcode, message):
+        on_off = "on" if message.data[0] > 0 else "off"
+        self.logger.info("Present value is %s", on_off)

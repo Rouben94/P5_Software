@@ -117,7 +117,8 @@ class Interactive(object):
     DEFAULT_LOCAL_UNICAST_ADDRESS_START = 0x0001
     CONFIG = ApplicationConfig(
         header_path=os.path.join(os.path.dirname(sys.argv[0]),
-                                 ("include/" + "nrf_mesh_config_app.h")))
+                                 ("include/"
+                                  + "nrf_mesh_config_app.h")))
     PRINT_ALL_EVENTS = True
 
     def __init__(self, acidev):
@@ -206,7 +207,7 @@ def start_ipython(input_options):
         options.log_level = logging.INFO
     else:
         options.log_level = logging.DEBUG
-
+        
     colorama.init()
     comports = options.devices
     global d
@@ -224,12 +225,12 @@ def start_ipython(input_options):
     if not options.no_logfile and not os.path.exists(LOG_DIR):
         print("Creating log directory: {}".format(os.path.abspath(LOG_DIR)))
         os.mkdir(LOG_DIR)
-
+    
     for dev_com in comports:
         d.append(Interactive(Uart(port=dev_com,
                                   baudrate=options.baudrate,
                                   device_name=dev_com.split("/")[-1])))
-
+    
     device = d[0]
     send = device.acidev.write_aci_cmd  # NOQA: Ignore unused variable
 
@@ -255,8 +256,8 @@ def start_ipython(input_options):
 
     # IPython.embed(config=ipython_config)
 
-
 def stop_ipython():
     for dev in d:
         dev.close()
     raise SystemExit(0)
+
