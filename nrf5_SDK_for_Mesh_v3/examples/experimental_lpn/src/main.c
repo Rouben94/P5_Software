@@ -436,6 +436,12 @@ static void app_mesh_core_event_cb(const nrf_mesh_evt_t * p_evt)
 
         case NRF_MESH_EVT_LPN_FRIEND_POLL_COMPLETE:
             __LOG(LOG_SRC_APP, LOG_LEVEL_INFO, "Friend poll procedure complete\n");
+
+#if SIMPLE_HAL_LEDS_ENABLED
+    hal_led_blink_ms(BSP_LED_3_MASK, 50, 2);
+    //nrf_pwr_mgmt_run();
+#endif
+
             break;
 
         case NRF_MESH_EVT_LPN_FRIEND_REQUEST_TIMEOUT:
@@ -456,7 +462,7 @@ static void app_mesh_core_event_cb(const nrf_mesh_evt_t * p_evt)
                   p_est->friend_src);
 
 #if SIMPLE_HAL_LEDS_ENABLED
-            hal_led_pin_set(BSP_LED_1, true);
+            hal_led_pin_set(BSP_LED_1, false);
 #endif
             break;
         }
@@ -586,6 +592,13 @@ static void start(void)
     hal_led_mask_set(LEDS_MASK, LED_MASK_STATE_OFF);
     hal_led_blink_ms(LEDS_MASK, LED_BLINK_INTERVAL_MS, LED_BLINK_CNT_START);
 #endif
+
+  // Establish friendship
+  if (m_device_provisioned) {
+    if (!mesh_lpn_is_in_friendship()) {
+      initiate_friendship();
+    }
+  }
 }
 
 int main(void)

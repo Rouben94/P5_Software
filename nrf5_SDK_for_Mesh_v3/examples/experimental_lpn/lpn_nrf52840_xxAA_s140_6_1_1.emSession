@@ -56,8 +56,8 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="228" useTextEdit="1" useBinaryEdit="0" left="0" path="src/main.c" selected="1" top="210" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="29" y="440" useTextEdit="1" useBinaryEdit="0" left="0" path="src/main.c" selected="1" top="426" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="55" useTextEdit="1" useBinaryEdit="0" left="0" path="include/app_config.h" selected="0" top="31" codecName="Default"/>
  </Files>
- <ARMCrossStudioWindow activeProject="lpn_nrf52840_xxAA_s140_6.1.1" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <ARMCrossStudioWindow activeProject="lpn_nrf52840_xxAA_s140_6.1.1" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>

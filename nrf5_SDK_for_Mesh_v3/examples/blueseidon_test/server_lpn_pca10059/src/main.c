@@ -312,7 +312,6 @@ static void provisioning_aborted_cb(void) {
 static void provisioning_complete_cb(void) {
   __LOG(LOG_SRC_APP, LOG_LEVEL_INFO, "Successfully provisioned\n");
 
-
 #if MESH_FEATURE_GATT_ENABLED
   /* Restores the application parameters after switching from the Provisioning
      * service to the Proxy  */
@@ -369,8 +368,8 @@ static void app_mesh_core_event_cb(const nrf_mesh_evt_t *p_evt) {
 
   case NRF_MESH_EVT_LPN_FRIEND_POLL_COMPLETE:
     __LOG(LOG_SRC_APP, LOG_LEVEL_INFO, "Friend poll procedure complete\n");
- #if SIMPLE_HAL_LEDS_ENABLED
-    hal_led_blink_ms(BSP_LED_0_MASK, 50, 2);
+#if SIMPLE_HAL_LEDS_ENABLED
+    hal_led_blink_ms(BSP_LED_3_MASK, 50, 1);
 #endif
     break;
 
@@ -488,11 +487,19 @@ static void start(void) {
 
   hal_led_mask_set(LEDS_MASK, LED_MASK_STATE_OFF);
   hal_led_blink_ms(LEDS_MASK, LED_BLINK_INTERVAL_MS, LED_BLINK_CNT_START);
+
+  // Establish friendship
+  if (m_device_provisioned) {
+    if (!mesh_lpn_is_in_friendship()) {
+      initiate_friendship();
+    }
+  }
 }
 
 int main(void) {
   initialize();
   start();
+  sd_power_dcdc_mode_set(NRF_POWER_DCDC_ENABLE);
 
   for (;;) {
     /* Clear exceptions and PendingIRQ from the FPU unit */
